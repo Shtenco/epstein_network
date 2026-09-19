@@ -1,0 +1,14 @@
+{
+  "source_id": "sanashii_network",
+  "upstream": "https://github.com/sanashii/network-graph-epstein-files",
+  "default_branch": "main",
+  "materialization": "metadata_only",
+  "files": [
+    {
+      "path": "network.ipynb",
+      "git_blob_sha": "2f48d6f36cc626f3a4580617c1e58dcf725c54c2",
+      "size": 1149397,
+      "status": "connector_returned_no_text"
+    }
+  ]
+}
