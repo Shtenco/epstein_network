@@ -1,5 +1,11 @@
 name: vendor-and-build
 on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - "vendor_snapshot/**"
+      - "data/processed/**"
+      - "vendor_manifest.json"
   workflow_dispatch:
   schedule:
     - cron: "17 3 * * 1"
