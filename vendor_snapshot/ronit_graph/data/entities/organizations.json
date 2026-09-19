@@ -1,0 +1,507 @@
+[
+  {
+    "id": "org-jpmorgan",
+    "type": "organization",
+    "name": "JP Morgan Chase",
+    "shortDescription": "Major U.S. bank that served as Epstein's primary financial institution from 1998 to 2013.",
+    "detailedDescription": "JP Morgan Chase maintained a banking relationship with Jeffrey Epstein from 1998 to 2013, continuing to provide services even after his 2008 conviction for soliciting prostitution from a minor. Victims alleged the bank knowingly facilitated Epstein's trafficking by processing suspicious transactions without filing required suspicious activity reports. In June 2023, JP Morgan agreed to pay $290 million to settle claims from over 100 victims. Internal communications revealed that bank employees, including senior executive Jes Staley, were aware of concerns about Epstein's conduct. The U.S. Virgin Islands also sued JP Morgan, and the case was settled for $75 million in 2023.",
+    "tags": ["banking", "financial-enabler", "settlement", "compliance-failure"],
+    "significance": 1,
+    "category": "financial",
+    "headquarters": "New York, NY",
+    "sources": [
+      { "label": "NPR - JPMorgan Settlement", "url": "https://www.npr.org/2023/06/12/1181675580/epstein-jane-doe-1-290-million-settlement-jpmorgan-chase", "reliability": "reporting" },
+      { "label": "SDNY court records", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "banking client",
+        "reverseRelationship": "banked with",
+        "strength": 1,
+        "verified": true,
+        "description": "Epstein was a client from 1998 to 2013",
+        "sources": [{ "label": "Court records, Jane Doe 1 v. JPMorgan", "reliability": "primary" }],
+        "timeRange": { "start": "1998", "end": "2013" }
+      },
+      {
+        "targetId": "doc-jpmorgan-settlement",
+        "relationship": "subject of",
+        "reverseRelationship": "concerns",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Settlement documents", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2023-jpmorgan-settlement", "role": "defendant/settling party" }
+    ]
+  },
+  {
+    "id": "org-deutsche-bank",
+    "type": "organization",
+    "name": "Deutsche Bank",
+    "shortDescription": "German bank that served as Epstein's bank from 2013 to 2019, fined $150M for compliance failures.",
+    "detailedDescription": "Deutsche Bank maintained a banking relationship with Jeffrey Epstein from August 2013, onboarding him as a client shortly after JP Morgan dropped him. Though the bank issued a termination notice in December 2018 following the Miami Herald's 'Perversion of Justice' series, it continued servicing Epstein's accounts until his arrest in July 2019. The New York State Department of Financial Services fined Deutsche Bank $150 million in July 2020 for significant compliance failures, finding the bank processed hundreds of suspicious transactions totaling millions of dollars without adequate scrutiny, including payments to Epstein's alleged co-conspirators and settlement payments exceeding $7 million. Deutsche Bank separately settled with victims for $75 million in May 2023.",
+    "tags": ["banking", "financial-enabler", "fine", "compliance-failure"],
+    "significance": 2,
+    "category": "financial",
+    "headquarters": "Frankfurt, Germany",
+    "sources": [
+      { "label": "NY DFS Consent Order", "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071", "reliability": "primary" },
+      { "label": "NPR - Deutsche Bank Settlement", "url": "https://www.npr.org/2023/05/18/1176974676/deutsche-bank-settles-lawsuit-with-epstein-accusers-for-75-million", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "banking client",
+        "reverseRelationship": "banked with",
+        "strength": 1,
+        "verified": true,
+        "description": "Epstein was a client from 2013 to 2019; termination notice issued December 2018 but accounts remained active until arrest",
+        "sources": [{ "label": "NY DFS Consent Order", "reliability": "primary" }],
+        "timeRange": { "start": "2013-08", "end": "2019-07" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2020-deutsche-fine", "role": "sanctioned entity" },
+      { "eventId": "event-2023-deutsche-settlement", "role": "settling party" }
+    ]
+  },
+  {
+    "id": "org-bear-stearns",
+    "type": "organization",
+    "name": "Bear Stearns",
+    "shortDescription": "Investment bank where Epstein worked from 1976 to 1981 before being asked to leave.",
+    "detailedDescription": "Bear Stearns was the Wall Street investment bank where Jeffrey Epstein built his early career in finance. He joined in 1976 as a low-level junior assistant to a floor trader, having been recommended by a Dalton School parent who was impressed by his mathematical abilities. Epstein rose quickly, becoming an options trader in the special products division advising the firm's wealthiest clients on tax strategies. He became a limited partner in 1980. However, he was asked to leave the firm in 1981 for a 'Reg D violation' (a securities regulation violation), according to his own sworn testimony. Bear Stearns itself collapsed and was acquired by JP Morgan Chase in 2008.",
+    "tags": ["early-career", "wall-street", "investment-bank"],
+    "significance": 2,
+    "category": "financial",
+    "headquarters": "New York, NY",
+    "founded": "1923",
+    "sources": [
+      { "label": "Jeffrey Epstein, Wikipedia", "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein", "reliability": "secondary" },
+      { "label": "Britannica - Jeffrey Epstein", "url": "https://www.britannica.com/biography/Jeffrey-Epstein", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "former employer of",
+        "reverseRelationship": "employed at",
+        "strength": 2,
+        "verified": true,
+        "description": "Epstein worked at Bear Stearns from 1976 to 1981, rising to limited partner",
+        "sources": [{ "label": "Epstein sworn testimony", "reliability": "primary" }],
+        "timeRange": { "start": "1976", "end": "1981" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-j-epstein-co",
+    "type": "organization",
+    "name": "J. Epstein & Co. (Financial Trust Company)",
+    "shortDescription": "Epstein's financial management firm, claiming to serve only billionaire clients.",
+    "detailedDescription": "Founded by Epstein in 1988 as J. Epstein & Company, this financial consulting firm purportedly provided money-management services exclusively to individuals with a net worth exceeding $1 billion. The only publicly identified client was Leslie Wexner, founder of L Brands. The firm was later restructured and operated through various entities including the Financial Trust Company, based in the U.S. Virgin Islands, which took advantage of favorable tax treatment for financial services companies in the territory. The true scope of the firm's client base and activities has never been fully established, contributing to enduring questions about the actual sources of Epstein's wealth.",
+    "tags": ["epstein-entity", "financial-management", "usvi", "wealth-mystery"],
+    "significance": 2,
+    "category": "epstein-entity",
+    "headquarters": "U.S. Virgin Islands",
+    "founded": "1988",
+    "sources": [
+      { "label": "Britannica - Where Did Jeffrey Epstein Get His Money?", "url": "https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money", "reliability": "secondary" },
+      { "label": "USVI tax records", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "founded by",
+        "reverseRelationship": "founded",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Corporate records", "reliability": "primary" }],
+        "timeRange": { "start": "1988", "end": "2019" }
+      },
+      {
+        "targetId": "person-wexner",
+        "relationship": "served as financial manager for",
+        "reverseRelationship": "financial management client of",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Wexner Foundation Report", "reliability": "primary" }],
+        "timeRange": { "start": "1988", "end": "2007" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-gratitude-america",
+    "type": "organization",
+    "name": "Gratitude America Ltd.",
+    "shortDescription": "Epstein-controlled nonprofit foundation used to channel money to associates and institutions.",
+    "detailedDescription": "A 501(c)(3) nonprofit launched in 2012, ostensibly to support organizations celebrating American ideals. Darren K. Indyke, Epstein's longtime attorney, served as vice president. Federal tax filings showed the foundation gave away $1.84 million to charities from 2015-2017, but NBC News found that ten listed recipient charities were unaware of claimed donations, raising questions about the foundation's actual operations. Leon Black's BV70 LLC contributed $10 million to Gratitude America in 2015. Senate Finance Committee investigations in 2025 sought Treasury Department records related to the foundation's financial activities.",
+    "tags": ["epstein-entity", "nonprofit", "financial-conduit", "investigation"],
+    "significance": 3,
+    "category": "nonprofit",
+    "founded": "2012",
+    "sources": [
+      { "label": "IRS 990 filings", "reliability": "primary" },
+      { "label": "NBC News reporting", "url": "https://www.nbcnews.com/news/us-news/charities-say-they-never-got-donations-jeffrey-epstein-claims-he-n1028561", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "controlled by",
+        "reverseRelationship": "controlled",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "IRS filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-black",
+        "relationship": "received $10M contribution from (via BV70 LLC)",
+        "reverseRelationship": "contributed $10M to (via BV70 LLC)",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Financial records", "reliability": "primary" }],
+        "timeRange": { "start": "2015" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-southern-trust",
+    "type": "organization",
+    "name": "Southern Trust Company Inc.",
+    "shortDescription": "Epstein-controlled USVI entity alleged to have been a conduit funding the trafficking operation.",
+    "detailedDescription": "A company incorporated in the U.S. Virgin Islands and controlled by Epstein. According to the USVI AG complaint, Southern Trust appeared to perform no legitimate informatics or data-mining services despite its stated business purpose. Instead, the complaint alleged Southern Trust funded the 'Epstein Enterprise,' acting as a financial conduit for payments to foreign women, credit card expenses, airplane costs, and other instrumentalities of the trafficking operation. Senate Finance Committee investigations in 2025 sought Treasury Department records related to Southern Trust's financial transactions.",
+    "tags": ["epstein-entity", "shell-company", "usvi", "financial-conduit"],
+    "significance": 2,
+    "category": "epstein-entity",
+    "headquarters": "U.S. Virgin Islands",
+    "sources": [
+      { "label": "USVI AG Complaint (2020)", "reliability": "primary" },
+      { "label": "Senate Finance Committee investigation (2025)", "url": "https://www.finance.senate.gov/ranking-members-news/as-bessent-withholds-epstein-files-wyden-expands-investigation-and-demands-financial-records", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "controlled by",
+        "reverseRelationship": "controlled",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "USVI AG Complaint", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-couq-foundation",
+    "type": "organization",
+    "name": "C.O.U.Q. Foundation",
+    "shortDescription": "Epstein-associated nonprofit that channeled $46 million to a Wexner foundation in 2008.",
+    "detailedDescription": "An Epstein-controlled nonprofit foundation. According to 2008 IRS 990 disclosure forms, the C.O.U.Q. Foundation and Epstein's Financial Trust Company contributed a combined $46 million to a Wexner foundation. The nature and purpose of this large transfer, occurring the same year Epstein pleaded guilty to state charges, remains a subject of scrutiny. The foundation was one of several Epstein entities investigated by the USVI Attorney General.",
+    "tags": ["epstein-entity", "nonprofit", "wexner-connection"],
+    "significance": 3,
+    "category": "nonprofit",
+    "sources": [
+      { "label": "IRS 990 filings (2008)", "reliability": "primary" },
+      { "label": "CNBC reporting", "url": "https://www.cnbc.com/2019/07/11/epstein-donated-46-million-to-les-wexners-private-foundation-in-2008.html", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "controlled by",
+        "reverseRelationship": "controlled",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "IRS filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-wexner",
+        "relationship": "transferred $46M to foundation of",
+        "reverseRelationship": "foundation received $46M from",
+        "strength": 1,
+        "verified": true,
+        "description": "Combined $46M transfer from COUQ Foundation and Financial Trust Co. to Wexner foundation in 2008",
+        "sources": [{ "label": "IRS 990 (2008)", "reliability": "primary" }],
+        "timeRange": { "start": "2008" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-l-brands",
+    "type": "organization",
+    "name": "L Brands (The Limited / Victoria's Secret)",
+    "shortDescription": "Retail conglomerate founded by Les Wexner, whose close relationship with Epstein raised extensive questions.",
+    "detailedDescription": "L Brands, formerly known as The Limited Inc., was the retail conglomerate founded by Leslie Wexner that included Victoria's Secret, Bath & Body Works, and other brands. Epstein served as Wexner's financial advisor beginning in 1987 and was granted power of attorney over Wexner's trusts and foundations in 1991. Through this relationship, Epstein gained access to significant wealth, properties (including the Manhattan townhouse), and a private jet, all previously owned by Wexner or his companies. Allegations surfaced that Epstein posed as a talent scout for Victoria's Secret to recruit young women. Wexner stated he severed ties with Epstein in 2007 after discovering missing funds.",
+    "tags": ["wexner", "victorias-secret", "retail", "financial-relationship"],
+    "significance": 2,
+    "category": "financial",
+    "headquarters": "Columbus, OH",
+    "founded": "1963",
+    "sources": [
+      { "label": "Wexner Foundation Independent Review", "url": "https://www.wexnerfoundation.org/wp-content/uploads/Wexner-Foundation-Report-Following-Independent-Review4.pdf", "reliability": "primary" },
+      { "label": "Britannica", "url": "https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-wexner",
+        "relationship": "founded by",
+        "reverseRelationship": "founded",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Corporate records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "financially managed by (via Wexner)",
+        "reverseRelationship": "managed finances of (via Wexner)",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Wexner Foundation Report", "reliability": "primary" }],
+        "timeRange": { "start": "1987", "end": "2007" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "org-sdny",
+    "type": "organization",
+    "name": "U.S. Attorney's Office, SDNY",
+    "shortDescription": "The federal prosecutor's office that brought the 2019 sex trafficking charges against Epstein.",
+    "detailedDescription": "The United States Attorney's Office for the Southern District of New York, one of the most prominent federal prosecutor offices in the country. Under U.S. Attorney Geoffrey Berman, the SDNY brought new sex trafficking and conspiracy charges against Epstein in July 2019, concluding they were not bound by the 2007 Florida non-prosecution agreement. The case was handled by the office's public corruption unit, with prosecutors Alex Rossmiller, Alison Moe, and Maurene Comey leading the prosecution. After Epstein's death, SDNY also prosecuted Ghislaine Maxwell, securing her conviction in December 2021.",
+    "tags": ["prosecution", "federal", "2019-case", "maxwell-case"],
+    "significance": 1,
+    "category": "government",
+    "headquarters": "New York, NY",
+    "sources": [
+      { "label": "SDNY Press Releases", "url": "https://www.justice.gov/usao-sdny", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-berman",
+        "relationship": "led by",
+        "reverseRelationship": "led",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY records", "reliability": "primary" }],
+        "timeRange": { "start": "2018-01", "end": "2020-06" }
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "prosecuted",
+        "reverseRelationship": "prosecuted by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY Indictment", "reliability": "primary" }],
+        "timeRange": { "start": "2019-07", "end": "2019-08" }
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "prosecuted",
+        "reverseRelationship": "prosecuted by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records, USA v. Maxwell", "reliability": "primary" }],
+        "timeRange": { "start": "2020-07", "end": "2022-06" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-arrest", "role": "prosecuting office" },
+      { "eventId": "event-2021-maxwell-trial", "role": "prosecuting office" }
+    ]
+  },
+  {
+    "id": "org-doj",
+    "type": "organization",
+    "name": "U.S. Department of Justice",
+    "shortDescription": "Federal department that oversaw Epstein prosecutions, the NPA review, and document releases.",
+    "detailedDescription": "The U.S. Department of Justice was involved at multiple levels of the Epstein case. The DOJ's Office of Professional Responsibility reviewed the 2008 NPA and found prosecutors used 'poor judgment.' The DOJ Inspector General investigated Epstein's death at MCC, finding staff misconduct. Between 2024-2026, the DOJ released over 207,000 documents in 12 data sets, with a final release of 3 million pages in January 2026. The DOJ also stated in July 2025 that Epstein had no 'client list' as commonly understood in public discourse, and that his death was confirmed as suicide.",
+    "tags": ["federal-government", "oversight", "document-releases"],
+    "significance": 2,
+    "category": "government",
+    "headquarters": "Washington, D.C.",
+    "sources": [
+      { "label": "DOJ Epstein page", "url": "https://www.justice.gov/epstein", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "doc-doj-releases-2025",
+        "relationship": "released",
+        "reverseRelationship": "released by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ website", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2025-doj-releases", "role": "releasing agency" }
+    ]
+  },
+  {
+    "id": "org-fbi",
+    "type": "organization",
+    "name": "Federal Bureau of Investigation",
+    "shortDescription": "Conducted investigations into Epstein in 2006 and 2018-2019.",
+    "detailedDescription": "The FBI conducted multiple investigations into Jeffrey Epstein. Following the Palm Beach Police referral in October 2005, the FBI opened a federal investigation in 2006, ultimately assembling evidence supporting approximately 60 charges. However, the investigation was shut down by the 2007 NPA. In December 2018, following the Miami Herald series, FBI agents and the SDNY opened a new investigation, leading to Epstein's arrest in July 2019. FBI records released through FOIA and the 2024-2026 DOJ releases contained thousands of pages of investigative reports, interview records, financial analyses, and surveillance documentation.",
+    "tags": ["federal-investigation", "law-enforcement"],
+    "significance": 2,
+    "category": "government",
+    "headquarters": "Washington, D.C.",
+    "sources": [
+      { "label": "FBI Vault - Jeffrey Epstein", "url": "https://vault.fbi.gov/jeffrey-epstein", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "investigated",
+        "reverseRelationship": "investigated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "FBI records", "reliability": "primary" }],
+        "timeRange": { "start": "2006", "end": "2019" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2006-fbi-investigation", "role": "investigating agency" },
+      { "eventId": "event-2019-arrest", "role": "arresting agency" }
+    ]
+  },
+  {
+    "id": "org-palm-beach-pd",
+    "type": "organization",
+    "name": "Palm Beach Police Department",
+    "shortDescription": "Local police force that initiated the first investigation into Epstein in March 2005.",
+    "detailedDescription": "The Palm Beach Police Department launched the initial investigation into Jeffrey Epstein in March 2005 after receiving a report from the parent of a 14-year-old girl. Under Chief Michael Reiter, the department conducted an extensive undercover investigation from May to September 2005, interviewing multiple young women who described being recruited for 'massages' at Epstein's Palm Beach estate. When State Attorney Barry Krischer returned only a single minor charge from the grand jury, Chief Reiter publicly accused Krischer of giving Epstein preferential treatment and referred the case to the FBI. The department's thorough initial investigation stands in contrast to the lenient outcomes that followed.",
+    "tags": ["local-law-enforcement", "initial-investigation", "palm-beach"],
+    "significance": 2,
+    "category": "government",
+    "headquarters": "Palm Beach, FL",
+    "sources": [
+      { "label": "Palm Beach PD investigation files", "reliability": "primary" },
+      { "label": "NBC News reporting", "url": "https://www.nbcnews.com/news/us-news/ex-florida-police-chief-epstein-case-worst-failure-criminal-justice-n1057226", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-reiter",
+        "relationship": "led by",
+        "reverseRelationship": "led",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Public records", "reliability": "primary" }],
+        "timeRange": { "start": "2005", "end": "2009" }
+      },
+      {
+        "targetId": "loc-palm-beach",
+        "relationship": "investigated activities at",
+        "reverseRelationship": "investigated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Investigation records", "reliability": "primary" }],
+        "timeRange": { "start": "2005-03", "end": "2006" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2005-pbpd-investigation", "role": "investigating agency" }
+    ]
+  },
+  {
+    "id": "org-usvi-ag",
+    "type": "organization",
+    "name": "U.S. Virgin Islands Attorney General",
+    "shortDescription": "Filed civil enforcement action against Epstein's estate, settling for over $105 million.",
+    "detailedDescription": "The U.S. Virgin Islands Attorney General's office, under AG Denise George, filed a civil CICO enforcement action in January 2020 against Epstein's estate, alleging a pattern of sex trafficking originating from Epstein's properties in the territory. The suit alleged girls as young as 12 were transported to Little St. James for exploitation. The case settled in December 2022 for $105 million plus half the proceeds from property sales. AG George was subsequently fired after filing a separate $190 million lawsuit against JP Morgan, reportedly under political pressure. The USVI AG office also sued JP Morgan, eventually settling for $75 million.",
+    "tags": ["usvi", "prosecution", "civil-enforcement", "estate"],
+    "significance": 2,
+    "category": "government",
+    "headquarters": "Charlotte Amalie, U.S. Virgin Islands",
+    "sources": [
+      { "label": "USVI DOJ", "url": "https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "filed civil suit against estate of",
+        "reverseRelationship": "estate sued by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }],
+        "timeRange": { "start": "2020-01", "end": "2022-12" }
+      },
+      {
+        "targetId": "loc-little-st-james",
+        "relationship": "investigated activities at",
+        "reverseRelationship": "activities investigated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "USVI AG Complaint", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2020-usvi-lawsuit", "role": "plaintiff" }
+    ]
+  },
+  {
+    "id": "org-bop",
+    "type": "organization",
+    "name": "Bureau of Prisons (BOP)",
+    "shortDescription": "Federal agency responsible for MCC New York, where Epstein died due to documented custody failures.",
+    "detailedDescription": "The Federal Bureau of Prisons operated the Metropolitan Correctional Center in Manhattan where Jeffrey Epstein was held following his July 2019 arrest. The DOJ Inspector General report documented extensive failures by BOP staff: guards did not check on Epstein for approximately eight hours before his death, his cellmate was transferred without replacement, surveillance cameras near his cell malfunctioned, and staff members were found to have been sleeping and browsing the internet rather than performing required rounds. Two guards were charged with falsifying prison records but reached deferred prosecution agreements. MCC New York was permanently closed in 2021.",
+    "tags": ["federal-prison", "custody-failure", "mcc"],
+    "significance": 3,
+    "category": "government",
+    "headquarters": "Washington, D.C.",
+    "sources": [
+      { "label": "DOJ OIG Report on MCC", "url": "https://oig.justice.gov/sites/default/files/reports/23-085.pdf", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "loc-mcc-manhattan",
+        "relationship": "operated",
+        "reverseRelationship": "operated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OIG Report", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-death", "role": "custodial agency" }
+    ]
+  },
+  {
+    "id": "org-mc2-model",
+    "type": "organization",
+    "name": "MC2 Model Management",
+    "shortDescription": "Modeling agency co-founded by Jean-Luc Brunel with Epstein's financial backing.",
+    "detailedDescription": "MC2 Model Management was a modeling agency founded by Jean-Luc Brunel with financial backing from Jeffrey Epstein. The agency operated in Miami, New York, and Tel Aviv. Court filings and victim testimony alleged the agency served as a pipeline for recruiting young women and girls under the guise of modeling opportunities, who were then trafficked to Epstein. Multiple victims described being approached through modeling industry contacts connected to Brunel and MC2. The agency's operations were central to the international dimension of Epstein's trafficking network.",
+    "tags": ["modeling", "recruitment", "brunel", "trafficking-pipeline"],
+    "significance": 2,
+    "category": "epstein-entity",
+    "headquarters": "Miami, FL",
+    "sources": [
+      { "label": "Court filings in Giuffre v. Maxwell", "reliability": "primary" },
+      { "label": "CNN reporting on Epstein associates", "url": "https://www.cnn.com/2019/08/12/us/jeffrey-epstein-associates-possible-accomplices", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-brunel",
+        "relationship": "co-founded by",
+        "reverseRelationship": "co-founded",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Corporate records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "financed by",
+        "reverseRelationship": "financed",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Financial records cited in court filings", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  }
+]
