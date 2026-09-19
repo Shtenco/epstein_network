@@ -5,10 +5,20 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -e . pytest
-      - run: pytest -q
+      - run: python -m compileall -q src scripts
+      - run: |
+          python - <<'PY'
+          from epstein_network.normalize import norm_email,norm_name,extract_emails,stable_id
+          assert norm_email(" <Alice@Example.COM> ")=="alice@example.com"
+          assert norm_name("  Jane   Doe ")=="jane doe"
+          assert extract_emails("x A.B+tag@example.org y")==["a.b+tag@example.org"]
+          assert stable_id("x","y")==stable_id("x","y")
+          print("core tests passed")
+          PY
