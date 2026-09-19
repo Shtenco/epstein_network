@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+vendor/
+data/raw/
+data/processed/*.csv
+data/processed/*.jsonl
+data/processed/*.json
+.neo4j/
