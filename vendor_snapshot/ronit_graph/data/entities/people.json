@@ -1,0 +1,1098 @@
+[
+  {
+    "id": "person-epstein",
+    "type": "person",
+    "name": "Jeffrey Epstein",
+    "shortDescription": "Convicted sex offender and financier who ran a decades-long sex trafficking operation involving minors.",
+    "detailedDescription": "Jeffrey Edward Epstein (1953-2019) was an American financier and convicted sex offender who operated a sex trafficking network exploiting dozens of underage girls over at least two decades. Born in Brooklyn to a working-class family, he taught at the Dalton School before entering finance at Bear Stearns (1976-1981), then founded his own financial management firm. His sole publicly known client was billionaire Leslie Wexner, through whom Epstein acquired immense wealth, properties, and a private jet. Epstein pleaded guilty in 2008 to Florida state charges of soliciting prostitution from a minor under a controversial non-prosecution agreement that shielded him and co-conspirators from federal charges. He was arrested again in July 2019 by SDNY on sex trafficking charges and died in his cell at the Metropolitan Correctional Center on August 10, 2019. The NYC Medical Examiner ruled his death a suicide by hanging.",
+    "tags": ["central-figure", "convicted", "deceased", "financier", "sex-trafficking"],
+    "significance": 1,
+    "role": "Primary subject — convicted sex offender and financier",
+    "category": "central",
+    "dateOfBirth": "1953-01-20",
+    "dateOfDeath": "2019-08-10",
+    "nationality": "American",
+    "keyPositions": ["Financial consultant", "Dalton School teacher", "Bear Stearns limited partner"],
+    "sources": [
+      { "label": "SDNY Indictment (2019)", "reliability": "primary" },
+      { "label": "Florida state court records (2008)", "reliability": "primary" },
+      { "label": "DOJ OIG Report on MCC custody", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-maxwell",
+        "relationship": "primary accomplice and partner",
+        "reverseRelationship": "primary accomplice and partner of",
+        "strength": 1,
+        "verified": true,
+        "description": "Maxwell was Epstein's longtime associate, romantic partner, and convicted co-conspirator in sex trafficking",
+        "sources": [{ "label": "USA v. Maxwell verdict", "reliability": "primary" }],
+        "timeRange": { "start": "1991", "end": "2019" }
+      },
+      {
+        "targetId": "person-wexner",
+        "relationship": "financial advisor to",
+        "reverseRelationship": "financial advisor was",
+        "strength": 1,
+        "verified": true,
+        "description": "Sole publicly known client; Wexner granted Epstein power of attorney in 1991",
+        "sources": [{ "label": "Wexner Foundation Report", "reliability": "primary" }],
+        "timeRange": { "start": "1987", "end": "2007" }
+      },
+      {
+        "targetId": "person-kellen",
+        "relationship": "employer of / aided by",
+        "reverseRelationship": "employed by / aided",
+        "strength": 1,
+        "verified": true,
+        "description": "Kellen scheduled appointments and facilitated access to minors",
+        "sources": [{ "label": "NPA (2007), victim testimony", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-marcinkova",
+        "relationship": "employer of / aided by",
+        "reverseRelationship": "employed by / aided",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA (2007), victim testimony", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-groff",
+        "relationship": "employer of / aided by",
+        "reverseRelationship": "employed by / aided",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA (2007)", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-ross",
+        "relationship": "employer of / aided by",
+        "reverseRelationship": "employed by / aided",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA (2007)", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-brunel",
+        "relationship": "associate and co-conspirator (alleged)",
+        "reverseRelationship": "associate and co-conspirator of (alleged)",
+        "strength": 1,
+        "verified": true,
+        "description": "Brunel recruited models and allegedly procured underage girls for Epstein",
+        "sources": [{ "label": "Giuffre deposition, French judicial investigation", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-giuffre",
+        "relationship": "abused (as documented in court filings)",
+        "reverseRelationship": "victim of abuse by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Giuffre v. Maxwell filings", "reliability": "primary" }],
+        "timeRange": { "start": "2000", "end": "2002" }
+      },
+      {
+        "targetId": "person-wild",
+        "relationship": "abused (as documented in court filings)",
+        "reverseRelationship": "victim of abuse by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "CVRA lawsuit filings", "reliability": "primary" }],
+        "timeRange": { "start": "1999", "end": "2007" }
+      },
+      {
+        "targetId": "person-farmer",
+        "relationship": "abused (as documented in trial testimony)",
+        "reverseRelationship": "victim of abuse by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Maxwell trial testimony", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-black",
+        "relationship": "financial advisor / consultant to",
+        "reverseRelationship": "client / paid $158M to",
+        "strength": 1,
+        "verified": true,
+        "description": "Black paid Epstein $158 million from 2012-2017 for tax and estate planning",
+        "sources": [{ "label": "Apollo Global Management review", "reliability": "primary" }],
+        "timeRange": { "start": "2012", "end": "2017" }
+      },
+      {
+        "targetId": "person-gates",
+        "relationship": "met with on philanthropy",
+        "reverseRelationship": "met with regarding philanthropy",
+        "strength": 2,
+        "verified": true,
+        "description": "Gates and deputies worked with Epstein for 18 months on a mega-philanthropy idea; Gates flew on Epstein plane once",
+        "sources": [{ "label": "CNBC reporting, Gates Foundation statements", "reliability": "reporting" }],
+        "timeRange": { "start": "2011", "end": "2014" }
+      },
+      {
+        "targetId": "person-prince-andrew",
+        "relationship": "associate",
+        "reverseRelationship": "associate of",
+        "strength": 1,
+        "verified": true,
+        "description": "Documented friendship; Andrew visited Epstein's properties and appeared in flight logs",
+        "sources": [{ "label": "Flight logs, photographic evidence, Giuffre deposition", "reliability": "primary" }],
+        "timeRange": { "start": "1999", "end": "2011" }
+      },
+      {
+        "targetId": "person-barak",
+        "relationship": "associate",
+        "reverseRelationship": "associate of",
+        "strength": 2,
+        "verified": true,
+        "description": "Barak visited Epstein's apartment dozens of times; extensive correspondence documented in DOJ releases",
+        "sources": [{ "label": "DOJ document releases (2025)", "reliability": "primary" }],
+        "timeRange": { "start": "2003", "end": "2019" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2005-pbpd-investigation", "role": "subject" },
+      { "eventId": "event-2006-fbi-investigation", "role": "subject" },
+      { "eventId": "event-2007-npa", "role": "beneficiary" },
+      { "eventId": "event-2008-guilty-plea", "role": "defendant" },
+      { "eventId": "event-2019-arrest", "role": "defendant" },
+      { "eventId": "event-2019-death", "role": "deceased" }
+    ]
+  },
+  {
+    "id": "person-maxwell",
+    "type": "person",
+    "name": "Ghislaine Maxwell",
+    "shortDescription": "Epstein's longtime associate, convicted in 2021 of sex trafficking and conspiracy. Sentenced to 20 years.",
+    "detailedDescription": "Ghislaine Noelle Maxwell (born 1961) is a British socialite and convicted sex trafficker, the daughter of media mogul Robert Maxwell. She became romantically involved with Epstein in the early 1990s and their relationship evolved into a close operational partnership. At trial, four victims testified that Maxwell recruited, groomed, and facilitated their abuse. She was convicted on December 29, 2021, on five of six counts including sex trafficking of a minor, and sentenced on June 28, 2022, to 20 years in federal prison with a $750,000 fine. She is the only person besides Epstein to have been criminally charged and convicted in the case. Her convictions were upheld on appeal in September 2024.",
+    "tags": ["convicted", "sex-trafficking", "enabler", "inner-circle"],
+    "significance": 1,
+    "role": "Convicted co-conspirator — recruited and groomed victims",
+    "category": "central",
+    "dateOfBirth": "1961-12-25",
+    "nationality": "British, French, American",
+    "keyPositions": ["Socialite", "Convicted sex trafficker"],
+    "sources": [
+      { "label": "USA v. Maxwell, 20 Cr. 330 (SDNY)", "reliability": "primary" },
+      { "label": "Maxwell trial verdict (Dec 2021)", "reliability": "primary" },
+      { "label": "Sentencing transcript (Jun 2022)", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "primary accomplice and partner of",
+        "reverseRelationship": "primary accomplice and partner",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "USA v. Maxwell verdict", "reliability": "primary" }],
+        "timeRange": { "start": "1991", "end": "2019" }
+      },
+      {
+        "targetId": "person-giuffre",
+        "relationship": "recruited and groomed (court-documented)",
+        "reverseRelationship": "recruited and groomed by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Giuffre v. Maxwell filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-farmer",
+        "relationship": "abused (as found by jury)",
+        "reverseRelationship": "testified against at trial",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Maxwell trial verdict", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2020-maxwell-arrest", "role": "defendant" },
+      { "eventId": "event-2021-maxwell-trial", "role": "defendant" },
+      { "eventId": "event-2021-maxwell-verdict", "role": "convicted" },
+      { "eventId": "event-2022-maxwell-sentencing", "role": "sentenced" }
+    ]
+  },
+  {
+    "id": "person-giuffre",
+    "type": "person",
+    "name": "Virginia Giuffre",
+    "shortDescription": "Epstein's most prominent accuser, who sued Maxwell and Prince Andrew. Died April 25, 2025.",
+    "detailedDescription": "Virginia Roberts Giuffre (1983-2025) was the most publicly prominent survivor of Epstein's trafficking network. Recruited at age 16 while working at Mar-a-Lago in 2000, she alleged that Epstein and Maxwell sexually exploited her and trafficked her to other men including Prince Andrew. Her defamation suit against Maxwell (Giuffre v. Maxwell, filed 2015) produced the sealed documents whose unsealing in 2024 revealed dozens of names connected to Epstein. She settled a separate civil suit against Prince Andrew in February 2022, in which Andrew acknowledged Epstein's trafficking of 'countless young girls.' Giuffre died by suicide on April 25, 2025, in Western Australia.",
+    "tags": ["victim", "plaintiff", "public-advocate", "deceased"],
+    "significance": 1,
+    "role": "Victim, plaintiff, and public advocate",
+    "category": "victim",
+    "dateOfBirth": "1983-08-09",
+    "dateOfDeath": "2025-04-25",
+    "nationality": "American",
+    "aliases": ["Virginia Roberts"],
+    "sources": [
+      { "label": "Giuffre v. Maxwell, 15-cv-07433 (SDNY)", "reliability": "primary" },
+      { "label": "Giuffre v. Prince Andrew settlement (2022)", "reliability": "primary" },
+      { "label": "PBS News obituary", "url": "https://www.pbs.org/newshour/world/virginia-giuffre-plaintiff-in-epstein-and-prince-andrew-sex-trafficking-case-dies-at-41", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "victim of abuse by",
+        "reverseRelationship": "abused (as documented in court filings)",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }],
+        "timeRange": { "start": "2000", "end": "2002" }
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "recruited and groomed by",
+        "reverseRelationship": "recruited and groomed",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Giuffre v. Maxwell filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-prince-andrew",
+        "relationship": "accused of trafficking to (settled lawsuit)",
+        "reverseRelationship": "accused by (settled lawsuit)",
+        "strength": 1,
+        "verified": true,
+        "description": "Giuffre alleged Epstein trafficked her to Andrew; settled civil suit in 2022",
+        "sources": [{ "label": "Giuffre v. Prince Andrew settlement", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-dershowitz",
+        "relationship": "accused then retracted identification of",
+        "reverseRelationship": "accused by then exonerated by retraction from",
+        "strength": 2,
+        "verified": true,
+        "description": "Giuffre later stated she 'may have made a mistake' in identifying Dershowitz",
+        "sources": [{ "label": "Giuffre-Dershowitz settlement (2022)", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2015-giuffre-lawsuit", "role": "plaintiff" },
+      { "eventId": "event-2024-document-release", "role": "plaintiff (original case)" }
+    ]
+  },
+  {
+    "id": "person-wild",
+    "type": "person",
+    "name": "Courtney Wild",
+    "shortDescription": "Epstein victim who fought to overturn the NPA, landmark CVRA plaintiff. Abuse began at age 14.",
+    "detailedDescription": "Courtney Wild is a victim of Jeffrey Epstein who became a leading advocate for victims' rights. She testified that she was 14 years old when Epstein first sexually abused her, beginning in 1999. Wild filed a civil lawsuit against the United States in 2008, alleging that federal prosecutors violated the Crime Victims' Rights Act (CVRA) by reaching a secret non-prosecution agreement without consulting victims. Judge Kenneth Marra ruled in 2019 that prosecutors did violate the CVRA but could not award damages. The Eleventh Circuit ruled 7-4 that the CVRA does not give victims the ability to enforce rights until charges are formally filed, and the Supreme Court declined to hear the case in 2022. A 2025 congressional bill strengthening victims' protections was named the 'Courtney Wild Reinforcing Crime Victims' Rights Act.'",
+    "tags": ["victim", "cvra-plaintiff", "advocate", "legislative-legacy"],
+    "significance": 2,
+    "role": "Victim and CVRA plaintiff",
+    "category": "victim",
+    "nationality": "American",
+    "sources": [
+      { "label": "Wild v. United States, CVRA filings", "reliability": "primary" },
+      { "label": "ABC News reporting", "url": "https://abcnews.com/US/epstein-survivor-fought-transparency-justice-victims/story?id=127633706", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "victim of abuse by",
+        "reverseRelationship": "abused (as documented in court filings)",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "CVRA lawsuit filings", "reliability": "primary" }],
+        "timeRange": { "start": "1999", "end": "2007" }
+      },
+      {
+        "targetId": "person-marra",
+        "relationship": "plaintiff before",
+        "reverseRelationship": "ruled on case of",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-marra-ruling", "role": "plaintiff" }
+    ]
+  },
+  {
+    "id": "person-farmer",
+    "type": "person",
+    "name": "Annie Farmer",
+    "shortDescription": "Testified under her full name at the Maxwell trial about abuse she experienced as a teenager.",
+    "detailedDescription": "Annie Farmer is a victim of Jeffrey Epstein and Ghislaine Maxwell who chose to testify under her full name at Maxwell's 2021 criminal trial. She spoke publicly about Epstein and Maxwell at both Epstein's 2019 bail hearing and Maxwell's 2020 bail hearing. At the Maxwell trial, she testified for three hours as the fourth and final accuser, describing abuse she experienced as a teenager at Epstein's New Mexico ranch and his New York residence. She was recruited through her older sister who had been in contact with Epstein. Farmer became a prominent public advocate for other survivors.",
+    "tags": ["victim", "trial-witness", "public-advocate"],
+    "significance": 2,
+    "role": "Victim and trial witness",
+    "category": "victim",
+    "nationality": "American",
+    "sources": [
+      { "label": "USA v. Maxwell trial transcripts", "reliability": "primary" },
+      { "label": "CBS News trial coverage", "url": "https://www.cbsnews.com/news/ghislaine-maxwell-trial-four-accusers-testify-jeffrey-epstein/", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "victim of abuse by",
+        "reverseRelationship": "abused (as documented in trial testimony)",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Maxwell trial testimony", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "testified against at trial",
+        "reverseRelationship": "testified against by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Maxwell trial transcripts", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2021-maxwell-trial", "role": "witness" }
+    ]
+  },
+  {
+    "id": "person-kellen",
+    "type": "person",
+    "name": "Sarah Kellen",
+    "shortDescription": "Epstein's assistant who scheduled 'massage' appointments and allegedly facilitated access to minors.",
+    "detailedDescription": "Sarah Kellen (now Kellen Vickers) was a longtime assistant to Jeffrey Epstein. Survivors repeatedly described her as the gatekeeper who scheduled 'massages,' organized travel, prepared rooms, and allegedly escorted underage girls into Epstein's private quarters while instructing them on how to behave. She was named in the 2007 NPA as one of four co-conspirators granted immunity from federal prosecution. Victim testimony described Kellen and Lesley Groff requesting specific girls by name for appointments with Epstein. Despite the detailed allegations, Kellen was never criminally charged, protected first by the NPA's immunity provision and subsequently by prosecutorial discretion. The line between accomplice and victim has been debated, as some of Epstein's assistants were themselves recruited as teenagers.",
+    "tags": ["inner-circle", "enabler", "npa-immunity", "co-conspirator"],
+    "significance": 2,
+    "role": "Assistant and alleged co-conspirator (granted NPA immunity)",
+    "category": "enabler",
+    "aliases": ["Sarah Kellen Vickers"],
+    "nationality": "American",
+    "sources": [
+      { "label": "NPA (2007) — named co-conspirator", "reliability": "primary" },
+      { "label": "Victim depositions in civil cases", "reliability": "primary" },
+      { "label": "NBC News, DOJ co-conspirator releases", "url": "https://www.nbcnews.com/politics/justice-department/doj-names-3-people-fbi-once-called-jeffrey-epstein-co-conspirators-rcna258335", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "employed by / aided",
+        "reverseRelationship": "employer of / aided by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA, victim testimony", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "granted immunity by",
+        "reverseRelationship": "granted immunity to",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-marcinkova",
+    "type": "person",
+    "name": "Nadia Marcinkova",
+    "shortDescription": "Epstein associate accused in civil suits of participating in abuse; granted NPA immunity.",
+    "detailedDescription": "Nadia Marcinkova (also known as Nadia Marcinko) was an Epstein associate accused in civil lawsuits of directly participating in sexual abuse alongside Epstein. Court filings alleged she aided Epstein in 'satisfying his criminal sexual desires by, on occasion, directly participating in sexual abuse and prostitution of the minor girls.' She was named in the 2007 NPA as one of four co-conspirators granted immunity from federal prosecution. Some reports have described her as having been Epstein's 'sex slave,' blurring the line between perpetrator and victim. She later became an FAA-certified commercial pilot and flight instructor, piloting Epstein's aircraft. She was never criminally charged.",
+    "tags": ["inner-circle", "enabler", "npa-immunity", "co-conspirator", "pilot"],
+    "significance": 2,
+    "role": "Associate and alleged co-conspirator (granted NPA immunity)",
+    "category": "enabler",
+    "aliases": ["Nadia Marcinko"],
+    "nationality": "Yugoslavian-American",
+    "sources": [
+      { "label": "NPA (2007) — named co-conspirator", "reliability": "primary" },
+      { "label": "Civil lawsuit filings", "reliability": "primary" },
+      { "label": "Nadia Marcinko, Wikipedia", "url": "https://en.wikipedia.org/wiki/Nadia_Marcinko", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "employed by / aided",
+        "reverseRelationship": "employer of / aided by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA, civil filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "granted immunity by",
+        "reverseRelationship": "granted immunity to",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-groff",
+    "type": "person",
+    "name": "Lesley Groff",
+    "shortDescription": "Epstein's executive assistant who allegedly scheduled appointments with minors; granted NPA immunity.",
+    "detailedDescription": "Lesley Groff served as Jeffrey Epstein's executive assistant and scheduler. Court filings alleged she helped schedule 'massage' appointments for women and minor girls at Epstein's properties. Along with Sarah Kellen, Groff allegedly directed victims to bring other specific girls to Epstein's home, requesting them by name. She was named in the 2007 NPA as one of four co-conspirators granted immunity from federal prosecution. Groff has denied all wrongdoing. Her attorney stated she 'never knowingly booked travel for anyone under the age of 18, and had no knowledge of the alleged illegal activity whatsoever.' She was never criminally charged.",
+    "tags": ["inner-circle", "enabler", "npa-immunity", "co-conspirator"],
+    "significance": 2,
+    "role": "Executive assistant and alleged co-conspirator (granted NPA immunity)",
+    "category": "enabler",
+    "nationality": "American",
+    "sources": [
+      { "label": "NPA (2007) — named co-conspirator", "reliability": "primary" },
+      { "label": "Civil lawsuit filings", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "employed by / aided",
+        "reverseRelationship": "employer of / aided by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA, court filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "granted immunity by",
+        "reverseRelationship": "granted immunity to",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-ross",
+    "type": "person",
+    "name": "Adriana Ross",
+    "shortDescription": "Epstein associate named as co-conspirator in the NPA; invoked Fifth Amendment in depositions.",
+    "detailedDescription": "Adriana Ross was a Polish-born former model who worked for Jeffrey Epstein and was named in the 2007 NPA as one of four co-conspirators granted immunity from federal prosecution. In depositions, Ross invoked her Fifth Amendment right against self-incrimination over 100 times. She was described in court filings as an Epstein assistant who helped facilitate his activities. Like the other named co-conspirators, Ross was never criminally charged, shielded by the NPA's immunity provision.",
+    "tags": ["inner-circle", "enabler", "npa-immunity", "co-conspirator"],
+    "significance": 3,
+    "role": "Associate and alleged co-conspirator (granted NPA immunity)",
+    "category": "enabler",
+    "nationality": "Polish-American",
+    "sources": [
+      { "label": "NPA (2007) — named co-conspirator", "reliability": "primary" },
+      { "label": "Deposition records", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "employed by / aided",
+        "reverseRelationship": "employer of / aided by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA, deposition records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "granted immunity by",
+        "reverseRelationship": "granted immunity to",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-brunel",
+    "type": "person",
+    "name": "Jean-Luc Brunel",
+    "shortDescription": "French modeling agent who recruited young women for Epstein; died in Paris jail in February 2022.",
+    "detailedDescription": "Jean-Luc Brunel (1946-2022) was a French modeling agent and founder of MC2 Model Management, which was financed by Jeffrey Epstein. Brunel had a decades-long history of sexual misconduct allegations in the modeling industry predating his known association with Epstein. Court filings and victim testimony alleged he exploited underage girls from disadvantaged backgrounds by offering them modeling jobs, then brought them to the U.S. and 'farmed them out to his friends, especially Epstein.' Virginia Giuffre specifically named Brunel in her deposition as someone to whom she was trafficked. Brunel was arrested at Charles de Gaulle Airport in Paris on December 16, 2020, and subsequently charged with rape of minors and sexual harassment. He was found dead by hanging in his cell at La Sante Prison in Paris on February 19, 2022, in an apparent suicide.",
+    "tags": ["inner-circle", "modeling-industry", "deceased", "charged", "co-conspirator"],
+    "significance": 1,
+    "role": "Modeling agent, alleged co-conspirator",
+    "category": "enabler",
+    "dateOfBirth": "1946-09-18",
+    "dateOfDeath": "2022-02-19",
+    "nationality": "French",
+    "keyPositions": ["Co-founder of MC2 Model Management", "Modeling agent"],
+    "sources": [
+      { "label": "French judicial investigation records", "reliability": "primary" },
+      { "label": "Giuffre deposition testimony", "reliability": "primary" },
+      { "label": "NPR reporting on Brunel death", "url": "https://www.npr.org/2022/02/19/1081961087/jeffrey-epstein-jean-luc-brunel-dead", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "associate and co-conspirator of (alleged)",
+        "reverseRelationship": "associate and co-conspirator (alleged)",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings, French investigation", "reliability": "primary" }]
+      },
+      {
+        "targetId": "org-mc2-model",
+        "relationship": "co-founded",
+        "reverseRelationship": "co-founded by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Corporate records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "loc-paris-apartment",
+        "relationship": "associated with",
+        "reverseRelationship": "associated with",
+        "strength": 2,
+        "verified": false,
+        "sources": [{ "label": "French investigation", "reliability": "secondary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2022-brunel-death", "role": "deceased" }
+    ]
+  },
+  {
+    "id": "person-acosta",
+    "type": "person",
+    "name": "Alexander Acosta",
+    "shortDescription": "U.S. Attorney who approved the 2008 NPA; later resigned as Trump's Labor Secretary over the deal.",
+    "detailedDescription": "R. Alexander Acosta served as U.S. Attorney for the Southern District of Florida when he approved the 2007 non-prosecution agreement with Epstein. The NPA shut down a federal investigation that had assembled evidence for approximately 60 charges, instead allowing Epstein to plead guilty to two state prostitution charges. The deal was kept secret from victims in violation of the CVRA, as later ruled by Judge Marra. A DOJ OPR investigation found Acosta and his team used 'poor judgment' but did not commit professional misconduct. Acosta was appointed U.S. Secretary of Labor by President Trump in 2017. When the Miami Herald's 'Perversion of Justice' series renewed scrutiny of the deal, Acosta resigned from the cabinet on July 19, 2019, under bipartisan pressure.",
+    "tags": ["prosecutor", "npa-architect", "labor-secretary", "resigned"],
+    "significance": 1,
+    "role": "U.S. Attorney who approved the NPA; former Secretary of Labor",
+    "category": "legal",
+    "nationality": "American",
+    "dateOfBirth": "1969-01-16",
+    "keyPositions": ["U.S. Attorney, Southern District of Florida", "U.S. Secretary of Labor"],
+    "sources": [
+      { "label": "DOJ OPR Report", "url": "https://www.justice.gov/opr/page/file/1336471/dl", "reliability": "primary" },
+      { "label": "PBS News — plea deal", "url": "https://www.pbs.org/newshour/show/the-completely-unprecedented-plea-deal-jeffrey-epstein-made-with-alex-acosta", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "approved",
+        "reverseRelationship": "approved by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OPR Report", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "negotiated plea deal for",
+        "reverseRelationship": "plea deal negotiated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document, DOJ OPR Report", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-miami-herald-series",
+        "relationship": "role scrutinized in",
+        "reverseRelationship": "scrutinized role of",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Miami Herald series", "reliability": "reporting" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2007-npa", "role": "approving official" },
+      { "eventId": "event-2019-acosta-resignation", "role": "resigned" }
+    ]
+  },
+  {
+    "id": "person-julie-brown",
+    "type": "person",
+    "name": "Julie K. Brown",
+    "shortDescription": "Miami Herald investigative journalist whose 2018 series reignited the Epstein case.",
+    "detailedDescription": "Julie K. Brown is an American investigative journalist with the Miami Herald, best known for the 'Perversion of Justice' series published in November 2018. She began investigating Epstein in early 2017 and spent over a year identifying approximately 80 potential victims and persuading eight to tell their stories publicly. The series documented the extent of Epstein's abuse network and detailed how the 2008 plea deal was negotiated in secret, shielding powerful co-conspirators. Her reporting directly led to the FBI and SDNY reopening the Epstein case, Acosta's resignation as Labor Secretary, and Epstein's July 2019 arrest on new federal charges. Brown received a George Polk Award for Justice Reporting in 2018 and published a book, 'Perversion of Justice,' in 2020.",
+    "tags": ["journalist", "investigative-reporting", "catalyst", "polk-award"],
+    "significance": 2,
+    "role": "Investigative journalist — reignited the case",
+    "category": "legal",
+    "nationality": "American",
+    "keyPositions": ["Miami Herald investigative reporter"],
+    "sources": [
+      { "label": "Julie K. Brown, Wikipedia", "url": "https://en.wikipedia.org/wiki/Julie_K._Brown", "reliability": "secondary" },
+      { "label": "NPR interview (2024)", "url": "https://www.npr.org/2024/01/04/1222857174/jeffrey-epstein-julie-k-brown-documents-clinton-trump-prince-andrew", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "doc-miami-herald-series",
+        "relationship": "authored",
+        "reverseRelationship": "authored by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Miami Herald bylines", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2018-miami-herald", "role": "author" }
+    ]
+  },
+  {
+    "id": "person-marra",
+    "type": "person",
+    "name": "Judge Kenneth Marra",
+    "shortDescription": "Federal judge who ruled prosecutors violated victims' rights in the Epstein NPA.",
+    "detailedDescription": "Kenneth A. Marra is a U.S. District Judge for the Southern District of Florida. In February 2019, he issued a landmark ruling finding that federal prosecutors violated the Crime Victims' Rights Act (CVRA) when they negotiated the 2007 non-prosecution agreement with Epstein in secret, concealing the deal from victims and misleading them into believing federal prosecution remained possible. Despite finding the violation, Judge Marra's ruling provided limited relief: he determined the CVRA does not authorize monetary damages against the government. In September 2019, he closed the case, ruling the government owed victims no compensation. The ruling nonetheless established an important precedent regarding prosecutorial obligations to crime victims.",
+    "tags": ["judge", "cvra-ruling", "victims-rights"],
+    "significance": 2,
+    "role": "Federal judge — CVRA ruling",
+    "category": "legal",
+    "nationality": "American",
+    "keyPositions": ["U.S. District Judge, Southern District of Florida"],
+    "sources": [
+      { "label": "Marra CVRA ruling (Feb 2019)", "reliability": "primary" },
+      { "label": "Reason magazine analysis", "url": "https://reason.com/volokh/2019/02/21/prosecutors-violated-the-rights-of-jeffr/", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-wild",
+        "relationship": "ruled on case of",
+        "reverseRelationship": "plaintiff before",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "ruled NPA violated CVRA",
+        "reverseRelationship": "found to violate CVRA by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Marra ruling", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-marra-ruling", "role": "presiding judge" }
+    ]
+  },
+  {
+    "id": "person-berman",
+    "type": "person",
+    "name": "Geoffrey Berman",
+    "shortDescription": "U.S. Attorney for SDNY who oversaw the 2019 federal charges against Epstein.",
+    "detailedDescription": "Geoffrey S. Berman served as U.S. Attorney for the Southern District of New York from January 2018 to June 2020. Under his leadership, SDNY brought new sex trafficking charges against Epstein in July 2019, concluding that the New York-based prosecution was not bound by the 2007 Florida NPA. At a press conference following Epstein's arrest, Berman emphasized the importance of giving victims 'their day in court.' After Epstein's death, Berman's office continued investigating and ultimately charged Ghislaine Maxwell. Berman was controversially fired by Attorney General William Barr in June 2020 in a dispute unrelated to the Epstein case.",
+    "tags": ["prosecutor", "sdny", "2019-case"],
+    "significance": 2,
+    "role": "U.S. Attorney, SDNY — oversaw 2019 charges",
+    "category": "legal",
+    "nationality": "American",
+    "keyPositions": ["U.S. Attorney, Southern District of New York"],
+    "sources": [
+      { "label": "SDNY Press Release", "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors", "reliability": "primary" },
+      { "label": "Berman remarks", "url": "https://www.justice.gov/usao-sdny/page/file/1181906/dl", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-sdny",
+        "relationship": "led",
+        "reverseRelationship": "led by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ records", "reliability": "primary" }],
+        "timeRange": { "start": "2018-01", "end": "2020-06" }
+      },
+      {
+        "targetId": "doc-sdny-indictment-2019",
+        "relationship": "oversaw filing of",
+        "reverseRelationship": "filed by office of",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY Press Release", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-arrest", "role": "prosecuting U.S. Attorney" }
+    ]
+  },
+  {
+    "id": "person-reiter",
+    "type": "person",
+    "name": "Michael Reiter",
+    "shortDescription": "Palm Beach Police Chief who initiated the first Epstein investigation in 2005 and referred it to the FBI.",
+    "detailedDescription": "Michael Reiter served as Chief of the Palm Beach Police Department when the initial investigation into Jeffrey Epstein began in March 2005. Under his direction, the department conducted an extensive undercover investigation that identified multiple minor victims recruited for 'massages' at Epstein's Palm Beach mansion. When State Attorney Barry Krischer returned only a single minor charge from the grand jury, Reiter took the unusual step of publicly accusing Krischer of giving Epstein preferential treatment and formally referred the case to the FBI in October 2005. Reiter later told investigators he believed the defense team had been tipped off about the investigation, as minute details from confidential documents appeared to reach Epstein's attorneys. He described the outcome as the 'worst failure of the criminal justice system.'",
+    "tags": ["law-enforcement", "investigation-origin", "whistleblower"],
+    "significance": 2,
+    "role": "Palm Beach Police Chief — initiated first investigation",
+    "category": "institutional",
+    "nationality": "American",
+    "keyPositions": ["Chief of Police, Palm Beach, FL"],
+    "sources": [
+      { "label": "NBC News reporting", "url": "https://www.nbcnews.com/news/us-news/ex-florida-police-chief-epstein-case-worst-failure-criminal-justice-n1057226", "reliability": "reporting" },
+      { "label": "DOJ releases — Reiter FBI 302", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-palm-beach-pd",
+        "relationship": "led",
+        "reverseRelationship": "led by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Public records", "reliability": "primary" }],
+        "timeRange": { "start": "2001", "end": "2009" }
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "investigated",
+        "reverseRelationship": "investigated by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Investigation records", "reliability": "primary" }],
+        "timeRange": { "start": "2005", "end": "2006" }
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2005-pbpd-investigation", "role": "lead investigator" }
+    ]
+  },
+  {
+    "id": "person-prince-andrew",
+    "type": "person",
+    "name": "Prince Andrew (Duke of York)",
+    "shortDescription": "British royal who settled Virginia Giuffre's civil sexual abuse lawsuit; documented friendship with Epstein.",
+    "detailedDescription": "Prince Andrew, Duke of York, had a documented friendship with Jeffrey Epstein spanning from the late 1990s to at least 2010. He appeared in Epstein's flight logs, was photographed with his arm around then-17-year-old Virginia Giuffre in 2001 at Ghislaine Maxwell's London home, and stayed at Epstein's Manhattan mansion after Epstein's 2008 conviction. Giuffre alleged in sworn depositions that Epstein trafficked her to Andrew for sexual purposes on multiple occasions. Andrew denied all allegations. In February 2022, he reached an out-of-court settlement with Giuffre in her civil lawsuit, making a 'substantial donation' to her charity and acknowledging that Epstein 'trafficked countless young girls.' He was stripped of his military affiliations and royal patronages by Queen Elizabeth II in January 2022. Unsealed emails from Maxwell to Epstein in the 2024 document releases appeared to confirm the authenticity of the 2001 photograph.",
+    "tags": ["royalty", "accused", "settled-lawsuit", "flight-logs", "black-book"],
+    "significance": 1,
+    "role": "British royal — accused by Giuffre, settled civil suit",
+    "category": "associate",
+    "aliases": ["Andrew Mountbatten-Windsor"],
+    "dateOfBirth": "1960-02-19",
+    "nationality": "British",
+    "keyPositions": ["Duke of York", "Former Royal Navy officer"],
+    "sources": [
+      { "label": "Giuffre v. Prince Andrew settlement (Feb 2022)", "reliability": "primary" },
+      { "label": "Flight logs", "reliability": "primary" },
+      { "label": "Unsealed Giuffre v. Maxwell documents (2024)", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "associate of",
+        "reverseRelationship": "associate",
+        "strength": 1,
+        "verified": true,
+        "description": "Documented friendship; visited properties; appeared in flight logs; photographed together",
+        "sources": [{ "label": "Flight logs, photos, depositions", "reliability": "primary" }],
+        "timeRange": { "start": "1999", "end": "2011" }
+      },
+      {
+        "targetId": "person-giuffre",
+        "relationship": "accused by (settled lawsuit)",
+        "reverseRelationship": "accused of trafficking to (settled lawsuit)",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Giuffre v. Prince Andrew settlement", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "friend of",
+        "reverseRelationship": "friend of",
+        "strength": 1,
+        "verified": true,
+        "description": "Longstanding social relationship; the 2001 photograph was taken at Maxwell's London residence",
+        "sources": [{ "label": "Photographic evidence, depositions", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2011-andrew-photo", "role": "subject" },
+      { "eventId": "event-2022-andrew-settlement", "role": "defendant/settling party" }
+    ]
+  },
+  {
+    "id": "person-clinton",
+    "type": "person",
+    "name": "Bill Clinton",
+    "shortDescription": "Former U.S. President documented on 26 flight legs on Epstein's planes between 2001-2003.",
+    "detailedDescription": "Bill Clinton, 42nd President of the United States, had a documented relationship with Jeffrey Epstein primarily between 2001 and 2003. Flight logs record Clinton on 26 flight 'legs' (many being segments of the same international trips), often related to Clinton Foundation charitable work and speaking engagements. Clinton's name appears in Epstein's black book. His last known trip on Epstein's plane was November 2003. No flight records indicate Clinton traveled to Epstein's island. No Epstein survivor or associate has made public allegations of wrongdoing by Clinton in connection with Epstein. Clinton has said through spokespeople that he knew nothing about Epstein's crimes.",
+    "tags": ["political", "flight-logs", "black-book", "no-allegations"],
+    "significance": 2,
+    "role": "Former U.S. President — documented flights on Epstein's aircraft",
+    "category": "associate",
+    "dateOfBirth": "1946-08-19",
+    "nationality": "American",
+    "keyPositions": ["42nd President of the United States"],
+    "sources": [
+      { "label": "Flight logs released in USA v. Maxwell", "reliability": "primary" },
+      { "label": "ABC News reporting", "url": "https://abcnews.com/Politics/bill-clinton-jeffrey-epstein/story?id=127629827", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "flew on aircraft of (26 flight legs)",
+        "reverseRelationship": "hosted on aircraft",
+        "strength": 2,
+        "verified": true,
+        "description": "26 documented flight legs 2001-2003, related to foundation work and speaking tours. No allegations of wrongdoing.",
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }],
+        "timeRange": { "start": "2001", "end": "2003" }
+      },
+      {
+        "targetId": "doc-flight-logs",
+        "relationship": "listed in",
+        "reverseRelationship": "lists",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-trump",
+    "type": "person",
+    "name": "Donald Trump",
+    "shortDescription": "Former U.S. President with documented social relationship with Epstein in the 1990s-early 2000s.",
+    "detailedDescription": "Donald Trump, 45th and 47th President of the United States, had a documented social relationship with Jeffrey Epstein in the 1990s and early 2000s. Flight logs show Trump on at least eight flights on Epstein's planes in the 1990s between Palm Beach and New York. A December 2025 DOJ document release included an email from a federal prosecutor stating that flight records revealed Trump traveled on Epstein's jet 'many more times than previously has been reported.' Trump's name appears in Epstein's black book with multiple phone numbers. In 2002, Trump told New York Magazine that Epstein was 'terrific' and a 'lot of fun.' Their relationship reportedly soured, and an FBI memo released in 2026 documented a 2006 phone call in which Trump encouraged Palm Beach Police Chief Reiter in his investigation of Epstein. Trump has stated he was never close to Epstein and had a 'falling out' with him. No survivor has made public allegations of wrongdoing by Trump in connection with Epstein.",
+    "tags": ["political", "flight-logs", "black-book", "social-connection", "no-allegations"],
+    "significance": 2,
+    "role": "Former and current U.S. President — documented social relationship",
+    "category": "political",
+    "dateOfBirth": "1946-06-14",
+    "nationality": "American",
+    "keyPositions": ["45th and 47th President of the United States"],
+    "sources": [
+      { "label": "Flight logs", "reliability": "primary" },
+      { "label": "DOJ document releases (Dec 2025)", "reliability": "primary" },
+      { "label": "NPR reporting", "url": "https://www.npr.org/2025/12/24/nx-s1-5653648/justice-department-releases-more-epstein-files-some-of-them-mention-trump", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "social acquaintance; flew on aircraft of (at least 8 flights)",
+        "reverseRelationship": "social acquaintance; hosted on aircraft",
+        "strength": 2,
+        "verified": true,
+        "description": "At least 8 flights in 1990s; social relationship in Palm Beach/NYC. No allegations of wrongdoing.",
+        "sources": [{ "label": "Flight manifests, DOJ releases", "reliability": "primary" }],
+        "timeRange": { "start": "1993", "end": "2004" }
+      },
+      {
+        "targetId": "doc-flight-logs",
+        "relationship": "listed in",
+        "reverseRelationship": "lists",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-wexner",
+    "type": "person",
+    "name": "Leslie Wexner",
+    "shortDescription": "Billionaire founder of L Brands/Victoria's Secret; Epstein's sole known major financial client.",
+    "detailedDescription": "Leslie Herbert Wexner is an American billionaire businessman and founder of L Brands (The Limited, Victoria's Secret). He became Epstein's client in 1987 when Epstein became his financial advisor. In July 1991, Wexner took the extraordinary step of granting Epstein full power of attorney over his trusts and foundations, allowing Epstein to hire people, sign checks, and buy and sell properties on his behalf. Through this relationship, Epstein acquired hundreds of millions of dollars in assets, a private plane, the 9 East 71st Street Manhattan townhouse, and a luxury estate in Ohio, all previously owned by Wexner or his companies. Wexner stated he severed ties with Epstein in 2007 after discovering misappropriated funds. In 2008, the C.O.U.Q. Foundation and Epstein's Financial Trust Company contributed a combined $46 million to a Wexner foundation. The nature of Wexner's relationship with Epstein and the true source of Epstein's wealth remain among the most scrutinized aspects of the case.",
+    "tags": ["billionaire", "financial-connection", "power-of-attorney", "victorias-secret"],
+    "significance": 1,
+    "role": "Billionaire — Epstein's primary known financial client",
+    "category": "associate",
+    "dateOfBirth": "1937-09-08",
+    "nationality": "American",
+    "keyPositions": ["Founder and former CEO, L Brands / The Limited"],
+    "sources": [
+      { "label": "Wexner Foundation Independent Review", "url": "https://www.wexnerfoundation.org/wp-content/uploads/Wexner-Foundation-Report-Following-Independent-Review4.pdf", "reliability": "primary" },
+      { "label": "Britannica", "url": "https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "financial advisor was",
+        "reverseRelationship": "financial advisor to",
+        "strength": 1,
+        "verified": true,
+        "description": "Granted Epstein power of attorney in 1991; sole publicly known major client",
+        "sources": [{ "label": "Wexner Foundation Report", "reliability": "primary" }],
+        "timeRange": { "start": "1987", "end": "2007" }
+      },
+      {
+        "targetId": "org-l-brands",
+        "relationship": "founded",
+        "reverseRelationship": "founded by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Corporate records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "loc-manhattan-mansion",
+        "relationship": "originally owned property",
+        "reverseRelationship": "originally purchased by",
+        "strength": 2,
+        "verified": true,
+        "description": "Purchased 9 E. 71st St in 1989; formal deed transfer to Epstein recorded in 2011",
+        "sources": [{ "label": "NYC property records", "reliability": "primary" }],
+        "timeRange": { "start": "1989", "end": "2011" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-black",
+    "type": "person",
+    "name": "Leon Black",
+    "shortDescription": "Apollo Global Management co-founder who paid Epstein $158 million for advisory services.",
+    "detailedDescription": "Leon Black is an American billionaire and co-founder of Apollo Global Management, one of the world's largest private equity firms. From 2012 to 2017, Black paid Epstein more than $150 million for tax and estate-planning services, an amount that drew significant scrutiny given Epstein's 2008 conviction. Epstein also acted as an intermediary for Black's $5.5 million contribution to MIT. Through the shell company BV70 LLC, Black contributed $10 million to Epstein's nonprofit Gratitude America Ltd. in 2015. An independent review by the Dechert law firm found no evidence Black was involved in Epstein's criminal activities. Black stepped down as both Apollo CEO and chairman in March 2021 after the extent of his financial relationship with Epstein became public.",
+    "tags": ["billionaire", "financial-connection", "apollo", "advisory-fees"],
+    "significance": 2,
+    "role": "Billionaire investor — paid Epstein $150M+ for advisory services",
+    "category": "associate",
+    "dateOfBirth": "1951-07-31",
+    "nationality": "American",
+    "keyPositions": ["Co-founder, Apollo Global Management"],
+    "sources": [
+      { "label": "Apollo Global Management independent review (Dechert LLP)", "reliability": "primary" },
+      { "label": "Britannica", "url": "https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "client / paid $158M to",
+        "reverseRelationship": "financial advisor / consultant to",
+        "strength": 1,
+        "verified": true,
+        "description": "Paid Epstein $158 million from 2012-2017 for tax and estate planning",
+        "sources": [{ "label": "Apollo review, financial records", "reliability": "primary" }],
+        "timeRange": { "start": "2012", "end": "2017" }
+      },
+      {
+        "targetId": "org-gratitude-america",
+        "relationship": "contributed $10M to (via BV70 LLC)",
+        "reverseRelationship": "received $10M contribution from (via BV70 LLC)",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Financial records", "reliability": "primary" }],
+        "timeRange": { "start": "2015" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-gates",
+    "type": "person",
+    "name": "Bill Gates",
+    "shortDescription": "Microsoft co-founder who met with Epstein multiple times regarding philanthropy (2011-2014).",
+    "detailedDescription": "Bill Gates, co-founder of Microsoft and philanthropist, had a documented series of meetings with Jeffrey Epstein primarily between 2011 and 2014. Gates and senior deputies worked with Epstein for approximately 18 months on a proposed mega-philanthropy fund, though the Gates Foundation ultimately did not pursue any collaboration and no fund was created. Gates met with Epstein in 2013 in New York to discuss 'growing philanthropy' and afterward flew on one of Epstein's planes to Florida for a family visit. Gates contributed to MIT with Epstein as intermediary. The Gates Foundation stated no financial payments were made to Epstein nor was he employed by the foundation. Gates later called his meetings with Epstein 'a huge mistake' and said the relationship was focused on philanthropy.",
+    "tags": ["billionaire", "philanthropy-connection", "technology"],
+    "significance": 2,
+    "role": "Microsoft co-founder — met with Epstein regarding philanthropy",
+    "category": "associate",
+    "dateOfBirth": "1955-10-28",
+    "nationality": "American",
+    "keyPositions": ["Co-founder, Microsoft", "Co-chair, Bill & Melinda Gates Foundation"],
+    "sources": [
+      { "label": "CNBC reporting", "url": "https://www.cnbc.com/2019/09/09/jeffrey-epstein-got-bill-gates-meeting-after-aggressive-lobbying-campaign.html", "reliability": "reporting" },
+      { "label": "Gates Foundation statements", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "met with regarding philanthropy",
+        "reverseRelationship": "met with on philanthropy",
+        "strength": 2,
+        "verified": true,
+        "description": "Multiple meetings 2011-2014; flew on Epstein plane once; worked on philanthropy proposal. No fund created, no payments made to Epstein.",
+        "sources": [{ "label": "CNBC reporting, Gates Foundation statements", "reliability": "reporting" }],
+        "timeRange": { "start": "2011", "end": "2014" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-barak",
+    "type": "person",
+    "name": "Ehud Barak",
+    "shortDescription": "Former Israeli Prime Minister who maintained an extensive documented relationship with Epstein.",
+    "detailedDescription": "Ehud Barak, former Prime Minister of Israel (1999-2001), had an extensively documented relationship with Jeffrey Epstein. DOJ document releases in 2025 revealed hundreds of messages showing Barak visited an Epstein-owned Manhattan apartment multiple times between 2015 and 2019. Epstein's staff referred to the apartment as 'Ehud's apartment,' and Epstein's assistant Lesley Groff coordinated logistical details with Barak's wife for the visits. Barak has stated he met with Epstein dozens of times and flew on his private plane but never witnessed or participated in any illegal or inappropriate activity. In February 2026, Barak publicly expressed regret for knowing Epstein after the documents detailed their long friendship.",
+    "tags": ["political", "foreign-leader", "documented-visits", "apartment"],
+    "significance": 2,
+    "role": "Former Israeli Prime Minister — documented extensive relationship",
+    "category": "political",
+    "dateOfBirth": "1942-02-12",
+    "nationality": "Israeli",
+    "keyPositions": ["Prime Minister of Israel (1999-2001)", "Defense Minister of Israel"],
+    "sources": [
+      { "label": "DOJ document releases (2025)", "reliability": "primary" },
+      { "label": "Haaretz reporting (Feb 2026)", "url": "https://www.haaretz.com/israel-news/israel-politics/2026-02-13/ty-article/ex-israel-pm-ehud-barak-addresses-jeffrey-epstein-ties/0000019c-576c-d5d5-a5fc-ffeeb0af0000", "reliability": "reporting" },
+      { "label": "NBC News reporting", "url": "https://www.nbcnews.com/world/israel/israels-barak-says-regrets-knowing-epstein-documents-detail-long-frien-rcna259004", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "associate of",
+        "reverseRelationship": "associate",
+        "strength": 2,
+        "verified": true,
+        "description": "Dozens of meetings; used Epstein-owned apartment in Manhattan 2015-2019; flew on private plane. Relationship began around 2003.",
+        "sources": [{ "label": "DOJ document releases", "reliability": "primary" }],
+        "timeRange": { "start": "2003", "end": "2019" }
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-dershowitz",
+    "type": "person",
+    "name": "Alan Dershowitz",
+    "shortDescription": "Harvard law professor who was part of Epstein's defense team and was accused, then exonerated, by Giuffre.",
+    "detailedDescription": "Alan Dershowitz is a Harvard Law School professor emeritus who had dual roles in the Epstein case: he served on Epstein's defense team during the 2007-2008 plea negotiations, and was later accused by Virginia Giuffre of being one of the men Epstein trafficked her to. Giuffre alleged she was trafficked to Dershowitz 'at least six times' beginning when she was 16. Dershowitz vigorously denied all allegations. Giuffre filed a federal defamation suit against Dershowitz in 2019. In November 2022, the parties settled, with Giuffre stating she 'may have made a mistake in identifying Mr. Dershowitz.' The settlement involved no payments. Dershowitz has maintained he visited Epstein's island once but never had sexual contact with anyone there.",
+    "tags": ["defense-attorney", "accused-then-exonerated", "legal", "harvard"],
+    "significance": 2,
+    "role": "Epstein defense attorney; accused then exonerated by Giuffre",
+    "category": "legal",
+    "dateOfBirth": "1938-09-01",
+    "nationality": "American",
+    "keyPositions": ["Harvard Law School professor emeritus", "Epstein defense attorney"],
+    "sources": [
+      { "label": "Giuffre-Dershowitz settlement statement (2022)", "reliability": "primary" },
+      { "label": "CNN reporting", "url": "https://www.cnn.com/2022/11/08/us/alan-dershowitz-virginia-giuffre-allegations-dropped", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "defense attorney for; social associate of",
+        "reverseRelationship": "represented by; social associate of",
+        "strength": 2,
+        "verified": true,
+        "description": "Served on Epstein's defense team; visited properties; named in black book",
+        "sources": [{ "label": "Court records, flight logs", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-giuffre",
+        "relationship": "accused by then exonerated by retraction from",
+        "reverseRelationship": "accused then retracted identification of",
+        "strength": 2,
+        "verified": true,
+        "description": "Giuffre stated in 2022 settlement she 'may have made a mistake' in identifying Dershowitz",
+        "sources": [{ "label": "Settlement statement (2022)", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "person-denise-george",
+    "type": "person",
+    "name": "Denise George",
+    "shortDescription": "USVI Attorney General who filed the civil suit against Epstein's estate; subsequently fired.",
+    "detailedDescription": "Denise George served as Attorney General of the U.S. Virgin Islands when she filed a landmark civil enforcement action against Epstein's estate in January 2020 under the territory's CICO statute. The suit settled for over $105 million. George then filed a separate $190 million lawsuit against JP Morgan Chase, alleging the bank facilitated Epstein's trafficking. She was fired by USVI Governor Albert Bryan Jr. shortly after filing the JP Morgan suit, reportedly under political pressure. George publicly stated that her 'bar license and integrity were more important' than her job, and that she was fired for her dogged pursuit of the case.",
+    "tags": ["prosecutor", "usvi", "whistleblower", "fired"],
+    "significance": 2,
+    "role": "USVI Attorney General — filed estate lawsuit, subsequently fired",
+    "category": "legal",
+    "nationality": "American",
+    "keyPositions": ["Attorney General, U.S. Virgin Islands"],
+    "sources": [
+      { "label": "USVI AG Complaint", "reliability": "primary" },
+      { "label": "Fortune reporting", "url": "https://fortune.com/2023/11/17/jeffrey-epstein-us-virgin-islands-jpmorgan-attorney-general-investigation-fired/", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-usvi-ag",
+        "relationship": "led",
+        "reverseRelationship": "led by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "USVI government records", "reliability": "primary" }],
+        "timeRange": { "start": "2019", "end": "2023-01" }
+      },
+      {
+        "targetId": "doc-usvi-complaint",
+        "relationship": "filed",
+        "reverseRelationship": "filed by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2020-usvi-lawsuit", "role": "lead attorney" }
+    ]
+  }
+]
