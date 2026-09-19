@@ -1,0 +1,574 @@
+[
+  {
+    "id": "doc-npa-2007",
+    "type": "document",
+    "name": "Non-Prosecution Agreement (NPA)",
+    "shortDescription": "The controversial 2007 federal agreement that shielded Epstein and unnamed co-conspirators from federal charges.",
+    "detailedDescription": "Signed on September 24, 2007, this agreement between Jeffrey Epstein and the U.S. Attorney's Office for the Southern District of Florida effectively ended the federal investigation. The NPA required Epstein to plead guilty to two state prostitution charges in exchange for immunity from all federal sex trafficking charges. Critically, the agreement also granted immunity to four named co-conspirators (Sarah Kellen, Adriana Ross, Lesley Groff, and Nadia Marcinkova) and any unnamed 'potential co-conspirators.' The deal was negotiated in secret without notifying victims, which Judge Kenneth Marra later ruled violated the Crime Victims' Rights Act. The NPA was signed just one day before a federal prosecutor was prepared to indict Epstein on approximately 60 criminal charges.",
+    "tags": ["plea-deal", "immunity", "cvra-violation", "florida"],
+    "significance": 1,
+    "documentType": "plea-agreement",
+    "date": "2007-09-24",
+    "court": "U.S. Attorney's Office, Southern District of Florida",
+    "externalUrl": "https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/",
+    "sources": [
+      { "label": "NPA document (DocumentCloud)", "url": "https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/", "reliability": "primary" },
+      { "label": "DOJ Office of Professional Responsibility Report (2020)", "url": "https://www.justice.gov/opr/page/file/1336471/dl", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "beneficiary of",
+        "reverseRelationship": "benefited from",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-acosta",
+        "relationship": "approved by",
+        "reverseRelationship": "approved agreement",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OPR Report", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-kellen",
+        "relationship": "granted immunity to",
+        "reverseRelationship": "granted immunity by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-groff",
+        "relationship": "granted immunity to",
+        "reverseRelationship": "granted immunity by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-marcinkova",
+        "relationship": "granted immunity to",
+        "reverseRelationship": "granted immunity by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-ross",
+        "relationship": "granted immunity to",
+        "reverseRelationship": "granted immunity by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "NPA document", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2007-npa", "role": "document signed" }
+    ]
+  },
+  {
+    "id": "doc-sdny-indictment-2019",
+    "type": "document",
+    "name": "SDNY Indictment (2019)",
+    "shortDescription": "Federal indictment charging Epstein with sex trafficking of minors and conspiracy, filed by SDNY prosecutors.",
+    "detailedDescription": "Filed on July 8, 2019, by the Southern District of New York, this two-count indictment charged Jeffrey Epstein with sex trafficking of minors (Count One) and conspiracy to engage in sex trafficking of minors (Count Two). The indictment alleged that between 2002 and 2005, Epstein created a network to sexually exploit and abuse dozens of underage girls at his Manhattan and Palm Beach residences. SDNY prosecutors, led by U.S. Attorney Geoffrey Berman, concluded they were not bound by the 2007 Florida NPA. The case was prosecuted by the public corruption unit. Epstein faced up to 45 years if convicted on both counts. The case was mooted by Epstein's death on August 10, 2019.",
+    "tags": ["indictment", "sdny", "sex-trafficking", "federal"],
+    "significance": 1,
+    "documentType": "indictment",
+    "date": "2019-07-08",
+    "court": "Southern District of New York",
+    "caseNumber": "19 Cr. 490 (RMB)",
+    "externalUrl": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors",
+    "sources": [
+      { "label": "SDNY Press Release", "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors", "reliability": "primary" },
+      { "label": "U.S. Attorney Geoffrey Berman remarks", "url": "https://www.justice.gov/usao-sdny/page/file/1181906/dl", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "charged",
+        "reverseRelationship": "charged by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY Indictment", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-berman",
+        "relationship": "filed by office of",
+        "reverseRelationship": "oversaw filing of",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY Press Release", "reliability": "primary" }]
+      },
+      {
+        "targetId": "org-sdny",
+        "relationship": "filed by",
+        "reverseRelationship": "filed",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "SDNY Indictment", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-arrest", "role": "charging document" }
+    ]
+  },
+  {
+    "id": "doc-flight-logs",
+    "type": "document",
+    "name": "Epstein Flight Logs / Manifests",
+    "shortDescription": "Handwritten passenger manifests from Epstein's aircraft covering roughly the 1990s through mid-2000s.",
+    "detailedDescription": "Handwritten passenger manifests from Epstein's aircraft, notably a Boeing 727-31 (tail number N908JE, referred to in media as the 'Lolita Express') and other planes. The logs cover approximately 1,700+ documented flights from the 1990s through 2019. Released in stages through court proceedings (USA v. Maxwell) and DOJ document releases in 2025, the logs record passenger names, dates, and routes. Notable passengers recorded include Bill Clinton (26 flight legs, primarily 2001-2003), Donald Trump (at least 8 flights in the 1990s between Palm Beach and New York), Prince Andrew, Ghislaine Maxwell, and many others. Appearing in a flight log documents presence on a flight but does not prove participation in criminal activity.",
+    "tags": ["flight-logs", "evidence", "passengers", "lolita-express"],
+    "significance": 1,
+    "documentType": "flight-log",
+    "date": "1990",
+    "releaseDate": "2021",
+    "externalUrl": "https://www.justice.gov/ag/media/1391276/dl?inline=",
+    "sources": [
+      { "label": "Flight logs released in USA v. Maxwell", "url": "https://www.justice.gov/ag/media/1391276/dl?inline=", "reliability": "primary" },
+      { "label": "DOJ Epstein Document Releases (2025)", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "aircraft owner",
+        "reverseRelationship": "owner documented in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "FAA records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "lists as frequent passenger",
+        "reverseRelationship": "frequently listed in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-clinton",
+        "relationship": "lists as passenger (26 legs)",
+        "reverseRelationship": "listed in (26 flight legs)",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }],
+        "timeRange": { "start": "2001", "end": "2003" }
+      },
+      {
+        "targetId": "person-trump",
+        "relationship": "lists as passenger (at least 8 flights)",
+        "reverseRelationship": "listed in (at least 8 flights)",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }],
+        "timeRange": { "start": "1993", "end": "1999" }
+      },
+      {
+        "targetId": "person-prince-andrew",
+        "relationship": "lists as passenger",
+        "reverseRelationship": "listed in",
+        "strength": 2,
+        "verified": true,
+        "sources": [{ "label": "Flight manifests", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "doc-black-book",
+    "type": "document",
+    "name": "Epstein's 'Black Book' (Contact List)",
+    "shortDescription": "Epstein's personal address book containing approximately 1,500 names with phone numbers and addresses.",
+    "detailedDescription": "A personal contact directory maintained by Epstein and his staff containing approximately 1,500 names with phone numbers, addresses, and other contact information. Originally published in 2015 by Gawker after being revealed in court proceedings. The book was maintained by Epstein's former house manager Alfredo Rodriguez, who attempted to sell it to attorneys for Epstein's victims and was subsequently convicted of obstruction of justice. The book includes contacts for presidents, prime ministers, royalty, celebrities, business leaders, and personal acquaintances. Names include Donald Trump, Bill Clinton, Prince Andrew, Tony Blair, Henry Kissinger, Rupert Murdoch, Michael Bloomberg, and hundreds of others. Inclusion in the book indicates only that Epstein had contact information for a person, not involvement in criminal activity.",
+    "tags": ["contact-list", "evidence", "associates", "address-book"],
+    "significance": 1,
+    "documentType": "contact-list",
+    "date": "2004",
+    "releaseDate": "2015",
+    "sources": [
+      { "label": "Court filings in Edwards v. Epstein", "reliability": "primary" },
+      { "label": "CNBC reporting (2019)", "url": "https://www.cnbc.com/2019/07/22/jeffrey-epsteins-black-book-trump-clintons-prince-andrew.html", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "maintained by",
+        "reverseRelationship": "maintained",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "doc-giuffre-deposition",
+    "type": "document",
+    "name": "Virginia Giuffre Deposition (Giuffre v. Maxwell)",
+    "shortDescription": "Giuffre's sworn deposition testimony in her defamation case against Ghislaine Maxwell, naming multiple individuals.",
+    "detailedDescription": "Sworn deposition testimony given by Virginia Giuffre (nee Roberts) in the civil defamation case Giuffre v. Maxwell (15-cv-07433, SDNY). Giuffre provided detailed testimony about her recruitment at age 16 from Mar-a-Lago, her abuse by Epstein and Maxwell, and alleged trafficking to other individuals. She named Prince Andrew, former New Mexico Governor Bill Richardson, attorney Alan Dershowitz, modeling agent Jean-Luc Brunel, physicist Marvin Minsky, and investor Glenn Dubin among others. Portions of the deposition were sealed for years and released in stages beginning January 2024 by order of Judge Loretta Preska. The deposition remains one of the most detailed first-person accounts of Epstein's trafficking operation.",
+    "tags": ["deposition", "testimony", "giuffre", "maxwell-case"],
+    "significance": 1,
+    "documentType": "deposition",
+    "date": "2016",
+    "court": "Southern District of New York",
+    "caseNumber": "15-cv-07433",
+    "releaseDate": "2024-01-03",
+    "sources": [
+      { "label": "Giuffre v. Maxwell court filings (SDNY)", "reliability": "primary" },
+      { "label": "Unsealed documents (Jan 2024)", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-giuffre",
+        "relationship": "testimony of",
+        "reverseRelationship": "gave testimony in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-maxwell",
+        "relationship": "defendant in case",
+        "reverseRelationship": "named as defendant in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2024-document-release", "role": "released document" }
+    ]
+  },
+  {
+    "id": "doc-maxwell-trial-transcripts",
+    "type": "document",
+    "name": "Ghislaine Maxwell Trial Transcripts",
+    "shortDescription": "Complete trial transcripts from the federal criminal trial of Ghislaine Maxwell (November-December 2021).",
+    "detailedDescription": "Transcripts from the federal trial of Ghislaine Maxwell in the Southern District of New York (20 Cr. 330), held from November 29 to December 29, 2021. Four victims testified: 'Jane' (abuse beginning in 1994 when she was 14), 'Kate' (abuse at multiple Epstein properties), 'Carolyn' (abuse beginning at age 14 with Maxwell's direct involvement in scheduling and facilitating), and Annie Farmer (who testified under her full name about abuse in New Mexico and New York). The trial resulted in Maxwell's conviction on five of six counts, including sex trafficking of a minor, conspiracy to entice minors to travel for illegal sex acts, transportation of a minor with intent to engage in criminal sexual activity, and conspiracy charges.",
+    "tags": ["trial-transcript", "maxwell-trial", "victim-testimony", "sdny"],
+    "significance": 1,
+    "documentType": "court-filing",
+    "date": "2021-11-29",
+    "court": "Southern District of New York",
+    "caseNumber": "20 Cr. 330",
+    "sources": [
+      { "label": "SDNY court records, USA v. Maxwell", "reliability": "primary" },
+      { "label": "CNN, CBS, ABC trial coverage (2021)", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-maxwell",
+        "relationship": "defendant",
+        "reverseRelationship": "tried in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-farmer",
+        "relationship": "testimony from",
+        "reverseRelationship": "testified in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Trial transcripts", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2021-maxwell-trial", "role": "court proceeding" },
+      { "eventId": "event-2021-maxwell-verdict", "role": "verdict" }
+    ]
+  },
+  {
+    "id": "doc-2006-grand-jury",
+    "type": "document",
+    "name": "2006 Palm Beach Grand Jury Testimony",
+    "shortDescription": "Grand jury testimony from 2006 detailing sexual assault allegations against Epstein, released in July 2024.",
+    "detailedDescription": "Transcripts of grand jury proceedings from Palm Beach County, Florida, in 2006. The testimony detailed allegations that Epstein sexually assaulted numerous underage teenage girls at his Palm Beach mansion. Despite the testimony, the grand jury returned only a single count of soliciting prostitution, a relatively minor charge. Palm Beach Police Chief Michael Reiter publicly accused State Attorney Barry Krischer of giving Epstein preferential treatment. The transcripts were released by a Florida judge in July 2024, revealing the scope of evidence available to prosecutors at the time and the disparity between the evidence presented and the minimal charge returned.",
+    "tags": ["grand-jury", "palm-beach", "2006", "florida"],
+    "significance": 2,
+    "documentType": "court-filing",
+    "date": "2006-07",
+    "court": "Palm Beach County Circuit Court",
+    "releaseDate": "2024-07",
+    "sources": [
+      { "label": "Florida court records, released July 2024", "reliability": "primary" },
+      { "label": "PBS News reporting", "url": "https://www.pbs.org/newshour/politics/a-timeline-of-the-jeffrey-epstein-investigation-and-the-fight-to-make-the-governments-files-public", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "subject of",
+        "reverseRelationship": "subject of testimony in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2006-grand-jury", "role": "proceeding" }
+    ]
+  },
+  {
+    "id": "doc-jpmorgan-settlement",
+    "type": "document",
+    "name": "JP Morgan Settlement ($290M)",
+    "shortDescription": "The $290 million settlement between JP Morgan Chase and Epstein's victims, approved November 2023.",
+    "detailedDescription": "Settlement agreement in Jane Doe 1 v. JPMorgan Chase Bank, in which JP Morgan agreed to pay $290 million to over 100 women who alleged the bank aided and abetted Epstein's sex trafficking scheme. The victims argued that JP Morgan continued banking Epstein from 1998 to 2013 despite knowledge of his criminal conduct, processing suspicious transactions and failing to file required suspicious activity reports. U.S. District Judge Jed Rakoff granted final approval in November 2023. The case revealed internal communications showing bank employees were aware of Epstein's activities. Former JP Morgan executive Jes Staley was separately sued by the bank for his role in maintaining the Epstein relationship.",
+    "tags": ["settlement", "jpmorgan", "banking", "victims-compensation"],
+    "significance": 1,
+    "documentType": "court-filing",
+    "date": "2023-06-12",
+    "court": "Southern District of New York",
+    "releaseDate": "2023-11",
+    "sources": [
+      { "label": "NPR reporting", "url": "https://www.npr.org/2023/06/12/1181675580/epstein-jane-doe-1-290-million-settlement-jpmorgan-chase", "reliability": "reporting" },
+      { "label": "CNBC reporting", "url": "https://www.cnbc.com/2023/11/09/jpmorgans-290-million-settlement-with-epstein-accusers-wins-approval-by-us-judge.html", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-jpmorgan",
+        "relationship": "settlement by",
+        "reverseRelationship": "paid settlement in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-epstein",
+        "relationship": "related to activities of",
+        "reverseRelationship": "activities led to",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2023-jpmorgan-settlement", "role": "settlement document" }
+    ]
+  },
+  {
+    "id": "doc-deutsche-bank-settlement",
+    "type": "document",
+    "name": "Deutsche Bank Settlement ($75M)",
+    "shortDescription": "The $75 million settlement between Deutsche Bank and Epstein's victims, approved October 2023.",
+    "detailedDescription": "Settlement agreement in which Deutsche Bank agreed to pay $75 million to victims of Epstein's sex trafficking who were affected during the period Deutsche Bank served as Epstein's bank (2013-2019). Victims could receive between $75,000 and $5 million depending on evaluation of their claims. Deutsche Bank had previously been fined $150 million by the New York State Department of Financial Services in July 2020 for significant compliance failures related to the Epstein relationship, including failure to monitor suspicious transactions totaling millions of dollars, payments to alleged co-conspirators, and settlement payments exceeding $7 million. U.S. District Judge approved final settlement in October 2023.",
+    "tags": ["settlement", "deutsche-bank", "banking", "compliance-failure"],
+    "significance": 2,
+    "documentType": "court-filing",
+    "date": "2023-05-18",
+    "court": "Southern District of New York",
+    "releaseDate": "2023-10",
+    "sources": [
+      { "label": "NPR reporting", "url": "https://www.npr.org/2023/05/18/1176974676/deutsche-bank-settles-lawsuit-with-epstein-accusers-for-75-million", "reliability": "reporting" },
+      { "label": "NY DFS Consent Order (2020)", "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-deutsche-bank",
+        "relationship": "settlement by",
+        "reverseRelationship": "paid settlement in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court records", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2023-deutsche-settlement", "role": "settlement document" }
+    ]
+  },
+  {
+    "id": "doc-doj-releases-2025",
+    "type": "document",
+    "name": "DOJ Document Releases (2024-2026)",
+    "shortDescription": "Over 207,000 documents released by the DOJ in 12 data sets, including the final release of 3 million pages in January 2026.",
+    "detailedDescription": "Between 2024 and January 2026, the Department of Justice released investigative documents related to Jeffrey Epstein in 12 data sets totaling over 207,000 documents. These included FBI reports, financial records, flight logs, photographs, correspondence, and investigative memoranda. The final release on January 30, 2026, comprised approximately 3 million pages, including 2,000 videos and 180,000 images. The DOJ stated this would be the final release. The documents revealed new details about the scope of the FBI investigation, financial relationships, the identities of alleged co-conspirators, and the internal deliberations of prosecutors regarding potential charges against individuals beyond Epstein and Maxwell.",
+    "tags": ["doj-release", "foia", "fbi-records", "financial-records"],
+    "significance": 1,
+    "documentType": "foia",
+    "date": "2024",
+    "releaseDate": "2026-01-30",
+    "externalUrl": "https://www.justice.gov/epstein",
+    "sources": [
+      { "label": "DOJ Epstein Disclosures Page", "url": "https://www.justice.gov/epstein", "reliability": "primary" },
+      { "label": "PBS News timeline", "url": "https://www.pbs.org/newshour/politics/a-timeline-of-the-jeffrey-epstein-investigation-and-the-fight-to-make-the-governments-files-public", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "org-doj",
+        "relationship": "released by",
+        "reverseRelationship": "released",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ website", "reliability": "primary" }]
+      },
+      {
+        "targetId": "org-fbi",
+        "relationship": "contains records from",
+        "reverseRelationship": "records contained in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ releases", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2025-doj-releases", "role": "released documents" }
+    ]
+  },
+  {
+    "id": "doc-doj-opr-report",
+    "type": "document",
+    "name": "DOJ Office of Professional Responsibility Report",
+    "shortDescription": "2020 DOJ report finding Acosta and prosecutors used 'poor judgment' but did not commit professional misconduct in the NPA.",
+    "detailedDescription": "Released in November 2020, this report by the DOJ's Office of Professional Responsibility investigated the handling of the 2008 non-prosecution agreement. The OPR concluded that former U.S. Attorney Alexander Acosta and his prosecutors exercised 'poor judgment' in negotiating the NPA with Epstein but did not commit professional misconduct or violate the law. The report examined the decision to keep the agreement secret from victims, the unusually broad immunity provisions, and the failure to consult victims as required by the CVRA. Critics argued the finding of 'poor judgment' without misconduct was insufficient given the severity of the failures documented.",
+    "tags": ["opr-report", "acosta", "poor-judgment", "npa-review"],
+    "significance": 2,
+    "documentType": "foia",
+    "date": "2020-11-12",
+    "externalUrl": "https://www.justice.gov/opr/page/file/1336471/dl",
+    "sources": [
+      { "label": "DOJ OPR Report", "url": "https://www.justice.gov/opr/page/file/1336471/dl", "reliability": "primary" },
+      { "label": "NPR reporting", "url": "https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says", "reliability": "reporting" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-acosta",
+        "relationship": "investigated conduct of",
+        "reverseRelationship": "conduct investigated in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OPR Report", "reliability": "primary" }]
+      },
+      {
+        "targetId": "doc-npa-2007",
+        "relationship": "reviewed",
+        "reverseRelationship": "reviewed by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OPR Report", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": []
+  },
+  {
+    "id": "doc-doj-oig-mcc-report",
+    "type": "document",
+    "name": "DOJ Inspector General Report on MCC Custody",
+    "shortDescription": "IG report documenting Bureau of Prisons failures in Epstein's custody and care at MCC New York.",
+    "detailedDescription": "Published by the DOJ Office of the Inspector General, this report documented extensive failures by the Bureau of Prisons in the custody, care, and supervision of Jeffrey Epstein at the Metropolitan Correctional Center in New York. The report found that Epstein was left unmonitored and alone in his cell for approximately eight hours before his death, from 10:40 PM on August 9 to 6:30 AM on August 10, 2019. His cellmate had been transferred out the day before without a replacement being assigned. Guards failed to perform required rounds. The report characterized these failures as misconduct by staff members rather than mere negligence.",
+    "tags": ["ig-report", "mcc", "custody-failure", "bop"],
+    "significance": 2,
+    "documentType": "foia",
+    "date": "2023-06-27",
+    "externalUrl": "https://oig.justice.gov/sites/default/files/reports/23-085.pdf",
+    "sources": [
+      { "label": "DOJ OIG Report", "url": "https://oig.justice.gov/sites/default/files/reports/23-085.pdf", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "loc-mcc-manhattan",
+        "relationship": "investigated conditions at",
+        "reverseRelationship": "conditions investigated in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OIG Report", "reliability": "primary" }]
+      },
+      {
+        "targetId": "org-bop",
+        "relationship": "investigated failures of",
+        "reverseRelationship": "failures documented in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "DOJ OIG Report", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2019-death", "role": "subsequent investigation" }
+    ]
+  },
+  {
+    "id": "doc-usvi-complaint",
+    "type": "document",
+    "name": "USVI AG Civil Complaint (2020)",
+    "shortDescription": "U.S. Virgin Islands Attorney General's civil enforcement complaint against Epstein's estate under CICO.",
+    "detailedDescription": "Filed in January 2020 by USVI Attorney General Denise George, this civil enforcement action under the Virgin Islands' Criminally Influenced and Corrupt Organizations Act (CICO) alleged that Epstein created a network of companies and conspired with others to carry out and conceal a sex trafficking scheme. The complaint alleged that dozens of women and girls as young as 12 were transported to Little St. James Island for sexual exploitation. It named estate co-executors Darren Indyke and Richard Kahn as co-defendants. The case settled in December 2022 for $105 million in cash plus half the proceeds from the sale of Epstein's Virgin Islands properties. AG George was fired shortly after filing a separate suit against JP Morgan, reportedly under political pressure.",
+    "tags": ["usvi", "cico", "civil-suit", "estate"],
+    "significance": 2,
+    "documentType": "court-filing",
+    "date": "2020-01",
+    "court": "Superior Court of the Virgin Islands",
+    "sources": [
+      { "label": "USVI AG Complaint", "reliability": "primary" },
+      { "label": "USVI DOJ Press Release", "url": "https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/", "reliability": "primary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-epstein",
+        "relationship": "targets estate of",
+        "reverseRelationship": "estate targeted by",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "org-usvi-ag",
+        "relationship": "filed by",
+        "reverseRelationship": "filed",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      },
+      {
+        "targetId": "loc-little-st-james",
+        "relationship": "concerns activities at",
+        "reverseRelationship": "activities alleged in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Court filings", "reliability": "primary" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2020-usvi-lawsuit", "role": "filing" }
+    ]
+  },
+  {
+    "id": "doc-miami-herald-series",
+    "type": "document",
+    "name": "'Perversion of Justice' Series (Miami Herald)",
+    "shortDescription": "Julie K. Brown's 2018 investigative series that reignited public attention and led to Epstein's re-arrest.",
+    "detailedDescription": "Published by the Miami Herald beginning November 28, 2018, this investigative series by journalist Julie K. Brown documented the scope of Epstein's abuse network and the failures of the 2008 plea deal. Brown spent over a year investigating, interviewing approximately 80 potential victims (some as young as 13-14 at the time of abuse), and eight agreed to tell their stories publicly. The series detailed the role of then-U.S. Attorney Alexander Acosta in approving the NPA, the immunity granted to co-conspirators, and the failure to notify victims. The reporting directly led to the FBI and SDNY reopening the Epstein case in December 2018, Acosta's resignation as labor secretary, and Epstein's arrest on new federal charges in July 2019. Brown received a George Polk Award for Justice Reporting.",
+    "tags": ["investigative-journalism", "miami-herald", "julie-brown", "catalyst"],
+    "significance": 1,
+    "documentType": "news",
+    "date": "2018-11-28",
+    "sources": [
+      { "label": "Miami Herald, 'Perversion of Justice' series", "reliability": "reporting" },
+      { "label": "Julie K. Brown, Wikipedia", "url": "https://en.wikipedia.org/wiki/Julie_K._Brown", "reliability": "secondary" }
+    ],
+    "connections": [
+      {
+        "targetId": "person-julie-brown",
+        "relationship": "authored by",
+        "reverseRelationship": "authored",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Miami Herald bylines", "reliability": "primary" }]
+      },
+      {
+        "targetId": "person-acosta",
+        "relationship": "scrutinized role of",
+        "reverseRelationship": "role scrutinized in",
+        "strength": 1,
+        "verified": true,
+        "sources": [{ "label": "Miami Herald series", "reliability": "reporting" }]
+      }
+    ],
+    "timelineEvents": [
+      { "eventId": "event-2018-miami-herald", "role": "publication" }
+    ]
+  }
+]
