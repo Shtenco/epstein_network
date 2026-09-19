@@ -1,12 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "epstein-network"
-version = "0.1.0"
+version = "0.2.0"
 description = "Provenance-first distillation pipeline for public Epstein-related network datasets"
 requires-python = ">=3.11"
-dependencies = ["PyYAML>=6.0","networkx>=3.3"]
+dependencies = ["PyYAML>=6.0", "networkx>=3.3"]
 
 [project.optional-dependencies]
 neo4j = ["neo4j>=5.23"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
