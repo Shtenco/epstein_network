@@ -1,0 +1,49 @@
+profiles:
+  dleerdefi_network_data:
+    kinds: [black_book, flights, contacts, neo4j]
+    person_fields: [name, person, passenger, full_name]
+    email_fields: [email, emails, email_address]
+    phone_fields: [phone, phones, phone_number]
+    organization_fields: [organization, company, employer]
+    address_fields: [address, addresses, street_address]
+    flight_fields: [flight_id, flight, tail_number, aircraft]
+    date_fields: [date, flight_date, sent, timestamp]
+  rhowardstone_research:
+    kinds: [persons, relationships, contacts]
+    person_fields: [name, person, full_name, subject]
+    email_fields: [email, emails, email_address]
+    phone_fields: [phone, phones, phone_number]
+    organization_fields: [organization, company, institution]
+  minzique_jmail:
+    kinds: [email_graph, communication]
+    person_fields: [name, sender_name, recipient_name]
+    email_fields: [from, to, sender, recipient, recipients, cc, bcc, sender_email, recipient_email]
+    date_fields: [date, sent, timestamp]
+  awhite121_jmail_network:
+    kinds: [email_graph, communication]
+    email_fields: [from, to, sender, recipient, recipients, cc, bcc]
+    date_fields: [date, sent, timestamp]
+  bunka_email_network:
+    kinds: [email_corpus, people, cooccurrence]
+    person_fields: [name, person, person_name, full_name]
+    email_fields: [from, to, sender, recipient, recipients, cc, bcc]
+  phelix_network:
+    kinds: [contacts, emails, network]
+    person_fields: [name, person, full_name]
+    email_fields: [email, emails, email_address, from, to]
+    phone_fields: [phone, phones]
+  parrhesepstein:
+    kinds: [emails, relationships]
+    person_fields: [name, person, sender_name, recipient_name]
+    email_fields: [from, to, sender, recipient, recipients, cc, bcc, email]
+  maninka_dashboard:
+    kinds: [people, flights, relationships, emails, documents]
+    person_fields: [name, person, passenger, full_name]
+    email_fields: [from, to, sender, recipient, email]
+    flight_fields: [flight, flight_id, tail_number]
+    document_fields: [document, document_id, file, filename]
+  ringmast4r_flights:
+    kinds: [flights, passengers]
+    person_fields: [name, passenger, person]
+    flight_fields: [flight, flight_id, tail_number, aircraft]
+    date_fields: [date, flight_date]
