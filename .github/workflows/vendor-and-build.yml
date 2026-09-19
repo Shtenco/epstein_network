@@ -14,14 +14,17 @@ permissions:
 jobs:
   vendor:
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -e .
-      - run: python scripts/vendor_sources.py
-      - run: python scripts/build_v2.py
+      - name: Clone upstreams and create local snapshots
+        run: python scripts/vendor_sources.py
+      - name: Build V2 master graph
+        run: python scripts/build_v2.py
       - name: Commit snapshots and derived graph
         run: |
           git config user.name "epstein-network-bot"
