@@ -1,0 +1,127 @@
+version: 1
+sources:
+  - id: dleerdefi_network_data
+    repo: https://github.com/dleerdefi/epstein-network-data.git
+    canonical: true
+    priority: 100
+    roles: [black_book, flights, contacts, neo4j, provenance]
+  - id: rhowardstone_research
+    repo: https://github.com/rhowardstone/Epstein-research-data.git
+    canonical: true
+    priority: 95
+    roles: [persons, relationships, emails, phones, provenance]
+  - id: minzique_jmail
+    repo: https://github.com/minzique/jmail-explorer.git
+    canonical: true
+    priority: 95
+    roles: [email_graph, communication, entity_resolution]
+  - id: awhite121_jmail_network
+    repo: https://github.com/awhite121/jmail-network-explorer.git
+    canonical: true
+    priority: 90
+    roles: [email_graph, communication]
+  - id: bunka_email_network
+    repo: https://github.com/Bunka-lab/epstein-files.git
+    canonical: true
+    priority: 90
+    roles: [email_corpus, people, cooccurrence, communities]
+  - id: cappy_jmail_client
+    repo: https://github.com/cappy-dev/jmail-client.git
+    canonical: true
+    priority: 90
+    roles: [email_api, ingestion]
+  - id: phelix_network
+    repo: https://github.com/phelix001/epstein-network.git
+    canonical: true
+    priority: 85
+    roles: [contacts, emails, network]
+  - id: maxandrews_doc_explorer
+    repo: https://github.com/maxandrews/Epstein-doc-explorer.git
+    canonical: true
+    priority: 85
+    roles: [documents, semantic_relationships]
+  - id: parrhesepstein
+    repo: https://github.com/Pinperepette/parrhesepstein.git
+    canonical: true
+    priority: 85
+    roles: [emails, relationships, rag]
+  - id: file_explorer
+    repo: https://github.com/Donnadieu/Epstein-File-Explorer.git
+    canonical: true
+    priority: 80
+    roles: [people, documents, timeline, network]
+  - id: epsteinsuite
+    repo: https://github.com/Kevinchamplin/epsteinsuite.git
+    canonical: true
+    priority: 80
+    roles: [emails, flights, entities, visualization]
+  - id: lmsband_db
+    repo: https://github.com/LMSBAND/epstein-files-db.git
+    canonical: true
+    priority: 80
+    roles: [documents, entities, cooccurrence, sqlite]
+  - id: maninka_dashboard
+    repo: https://github.com/maninka123/Epstein-files-dashboard.git
+    canonical: true
+    priority: 80
+    roles: [people, flights, relationships, emails, documents]
+  - id: ronit_graph
+    repo: https://github.com/ronit111/epstein-files.git
+    canonical: true
+    priority: 80
+    roles: [verified_relationships, timeline, documents]
+  - id: ringmast4r_flights
+    repo: https://github.com/Ringmast4r/Epstein.git
+    canonical: true
+    priority: 75
+    roles: [flights, passengers, people]
+  - id: danhouseman_analysis
+    repo: https://github.com/DanHouseman/epstein-files-analysis.git
+    canonical: true
+    priority: 70
+    roles: [nlp, cooccurrence]
+  - id: sendo_dataviz
+    repo: https://github.com/sen-do/dataviz.git
+    canonical: true
+    priority: 70
+    roles: [entities, communities, visualization]
+  - id: rbd_temporal_graph
+    repo: https://github.com/rbd313/Epstein_Graph_30_Jan_2026.git
+    canonical: true
+    priority: 70
+    roles: [temporal_graph, provenance]
+  - id: svetim_visualizations
+    repo: https://github.com/SvetimFM/epstein-files-visualizations.git
+    canonical: true
+    priority: 65
+    roles: [documents, rag, visualization]
+  - id: epstein_docs
+    repo: https://github.com/epstein-docs/epstein-docs.github.io.git
+    canonical: true
+    priority: 65
+    roles: [documents, entities, search]
+  - id: markramm_files
+    repo: https://github.com/markramm/EpsteinFiles.git
+    canonical: true
+    priority: 65
+    roles: [documents, search]
+  - id: paulgp_search
+    repo: https://github.com/paulgp/epstein-document-search.git
+    canonical: true
+    priority: 60
+    roles: [documents, search]
+  - id: sanashii_network
+    repo: https://github.com/sanashii/network-graph-epstein-files.git
+    canonical: true
+    priority: 55
+    roles: [network_analysis]
+  - id: kris_network_analysis
+    repo: https://github.com/KrisX03/epstein-network-analysis.git
+    canonical: true
+    priority: 55
+    roles: [network_analysis]
+  - id: papotewii_epstein
+    repo: https://github.com/Papotewii/EpsteIn.git
+    canonical: true
+    priority: 40
+    roles: [supplemental]
