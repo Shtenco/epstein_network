@@ -1,0 +1,349 @@
+[
+  {
+    "id": "event-1976-bear-stearns",
+    "date": "1976",
+    "title": "Epstein Joins Bear Stearns",
+    "description": "Jeffrey Epstein joins Bear Stearns as a junior assistant to a floor trader, quickly rising to options trader and limited partner by 1980.",
+    "detailedDescription": "After teaching math and physics at the Dalton School in Manhattan (1974-1976), Epstein was recommended to Bear Stearns senior partner Alan Greenberg by a parent impressed with his mathematical abilities. He joined as a low-level hire and rose quickly through the special products division, advising wealthy clients on tax strategies. He became a limited partner in 1980 but was asked to leave in 1981 for a 'Reg D violation.'",
+    "category": "financial",
+    "significance": 3,
+    "relatedEntityIds": ["person-epstein", "org-bear-stearns"],
+    "sources": [{ "label": "Epstein sworn testimony; Britannica", "reliability": "secondary" }]
+  },
+  {
+    "id": "event-1987-wexner",
+    "date": "1987",
+    "title": "Epstein Becomes Wexner's Financial Advisor",
+    "description": "Jeffrey Epstein begins advising billionaire Leslie Wexner, founding J. Epstein & Co. the following year.",
+    "detailedDescription": "Epstein began managing the finances of Leslie Wexner, founder of L Brands (The Limited, Victoria's Secret). In 1988, he founded J. Epstein & Company, claiming to serve only billionaire clients. Wexner granted Epstein full power of attorney in 1991, an extraordinary level of control that allowed Epstein to conduct transactions, buy properties, and manage trusts on Wexner's behalf. This relationship became the primary known source of Epstein's considerable wealth.",
+    "category": "financial",
+    "significance": 2,
+    "relatedEntityIds": ["person-epstein", "person-wexner", "org-j-epstein-co"],
+    "sources": [{ "label": "Wexner Foundation Report; Britannica", "reliability": "primary" }]
+  },
+  {
+    "id": "event-1998-island-purchase",
+    "date": "1998",
+    "title": "Epstein Purchases Little St. James Island",
+    "description": "Epstein buys Little St. James Island in the U.S. Virgin Islands for approximately $7.95 million.",
+    "category": "financial",
+    "significance": 2,
+    "relatedEntityIds": ["person-epstein", "loc-little-st-james"],
+    "sources": [{ "label": "USVI property records", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2005-pbpd-investigation",
+    "date": "2005-03",
+    "title": "Palm Beach Police Begin Investigation",
+    "description": "Palm Beach PD opens investigation after a parent reports her 14-year-old daughter was molested at Epstein's mansion.",
+    "detailedDescription": "In March 2005, the Palm Beach Police Department received a complaint from the stepmother of a 14-year-old girl who reported being molested at Epstein's El Brillo Way mansion. Under Chief Michael Reiter, the department conducted an extensive undercover investigation from May through September 2005, interviewing multiple young women who described being recruited to provide 'massages' at Epstein's residence. The investigation revealed a pattern of abuse involving dozens of minor girls. This was the first formal law enforcement action against Epstein.",
+    "category": "investigation",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "person-reiter", "org-palm-beach-pd", "loc-palm-beach"],
+    "sources": [
+      { "label": "Palm Beach PD investigation records", "reliability": "primary" },
+      { "label": "NBC News reporting", "reliability": "reporting" }
+    ]
+  },
+  {
+    "id": "event-2006-grand-jury",
+    "date": "2006-07",
+    "title": "Palm Beach Grand Jury Returns Single Minor Charge",
+    "description": "Despite evidence of multiple victims, the grand jury returns only one count of soliciting prostitution.",
+    "detailedDescription": "State Attorney Barry Krischer sent the case to a Palm Beach County grand jury, which returned only a single count of soliciting prostitution, a relatively minor charge that enraged Palm Beach police leaders. Chief Reiter publicly accused Krischer of giving Epstein preferential treatment, submitted probable cause affidavits demanding Krischer recuse himself, and formally referred the case to the FBI. This marked the transition from a state to federal investigation.",
+    "category": "legal",
+    "significance": 2,
+    "relatedEntityIds": ["person-epstein", "person-reiter", "doc-2006-grand-jury"],
+    "sources": [{ "label": "Palm Beach County court records; NBC News reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2006-fbi-investigation",
+    "date": "2006",
+    "title": "FBI Opens Federal Investigation",
+    "description": "FBI begins federal investigation into Epstein following referral from Palm Beach Police Chief Reiter.",
+    "detailedDescription": "Following Chief Reiter's referral, the FBI opened a federal investigation that assembled evidence supporting approximately 60 criminal charges against Epstein. The investigation documented a pattern of sex trafficking involving dozens of underage victims. Despite this substantial evidence, the investigation would be effectively terminated by the 2007 non-prosecution agreement.",
+    "category": "investigation",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "org-fbi", "person-reiter"],
+    "sources": [{ "label": "FBI records; DOJ OPR Report", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2007-npa",
+    "date": "2007-09-24",
+    "title": "Non-Prosecution Agreement Signed",
+    "description": "Epstein signs the NPA with U.S. Attorney Acosta's office, shutting down the federal investigation and granting immunity to co-conspirators.",
+    "detailedDescription": "On September 24, 2007 — one day before a federal prosecutor was prepared to indict Epstein on approximately 60 charges — Epstein signed a non-prosecution agreement with the U.S. Attorney's Office for the Southern District of Florida. The NPA required Epstein to plead guilty to two state prostitution charges in exchange for immunity from all federal sex trafficking charges. It also granted immunity to four named co-conspirators (Kellen, Ross, Groff, Marcinkova) and any unnamed 'potential co-conspirators.' The deal was kept secret from victims, later ruled a violation of the Crime Victims' Rights Act.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "person-acosta", "person-kellen", "person-groff", "person-marcinkova", "person-ross", "doc-npa-2007"],
+    "sources": [
+      { "label": "NPA document", "reliability": "primary" },
+      { "label": "DOJ OPR Report", "reliability": "primary" }
+    ]
+  },
+  {
+    "id": "event-2008-guilty-plea",
+    "date": "2008-06-30",
+    "title": "Epstein Pleads Guilty to State Charges",
+    "description": "Epstein pleads guilty to two Florida state charges of soliciting prostitution, sentenced to 18 months.",
+    "detailedDescription": "Epstein pleaded guilty to two state charges: procuring a person under 18 for prostitution and felony solicitation of prostitution. He was sentenced to 18 months in the Palm Beach County Stockade. Under a controversial work-release arrangement, he was allowed to leave the facility for up to 12 hours a day, six days a week, to work at his office in downtown West Palm Beach. He ultimately served approximately 13 months, being released on July 22, 2009. Victims learned of the plea deal only through media reports, having been told by prosecutors that the federal case was still being evaluated.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "loc-palm-beach"],
+    "sources": [{ "label": "Florida state court records", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2011-andrew-photo",
+    "date": "2011",
+    "title": "Prince Andrew Photograph with Giuffre Surfaces",
+    "description": "A photograph of Prince Andrew with his arm around 17-year-old Virginia Giuffre, taken at Maxwell's London home in 2001, becomes public.",
+    "detailedDescription": "A photograph showing Prince Andrew with his arm around then-17-year-old Virginia Roberts (later Giuffre), taken at Ghislaine Maxwell's London townhouse in 2001, surfaced publicly. Maxwell is also visible in the photograph. The image became central evidence in Giuffre's allegations that she was trafficked to Prince Andrew. Unsealed Maxwell-Epstein emails from 2015, released in 2024, appeared to confirm the photograph's authenticity.",
+    "category": "media",
+    "significance": 2,
+    "relatedEntityIds": ["person-prince-andrew", "person-giuffre", "person-maxwell"],
+    "sources": [
+      { "label": "Photographic evidence", "reliability": "primary" },
+      { "label": "Unsealed Maxwell emails (2024)", "reliability": "primary" }
+    ]
+  },
+  {
+    "id": "event-2015-giuffre-lawsuit",
+    "date": "2015-09-21",
+    "title": "Virginia Giuffre Files Defamation Suit Against Maxwell",
+    "description": "Giuffre sues Ghislaine Maxwell for defamation after Maxwell called her allegations 'obvious lies.'",
+    "detailedDescription": "Virginia Giuffre filed a federal defamation lawsuit (Giuffre v. Maxwell, 15-cv-07433) in the Southern District of New York against Ghislaine Maxwell, alleging Maxwell defamed her by publicly calling her statements about being trafficked 'obvious lies.' The case produced extensive discovery including depositions, emails, and documentary evidence that would become the basis for the 2024 document unsealing. The case settled confidentially in 2017, but third parties including the Miami Herald fought to unseal the court records.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-giuffre", "person-maxwell", "doc-giuffre-deposition"],
+    "sources": [{ "label": "Giuffre v. Maxwell, 15-cv-07433 (SDNY)", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2018-miami-herald",
+    "date": "2018-11-28",
+    "title": "'Perversion of Justice' Series Published",
+    "description": "Miami Herald publishes Julie K. Brown's investigative series, reigniting public attention on the Epstein case.",
+    "detailedDescription": "The Miami Herald published the first installment of 'Perversion of Justice,' Julie K. Brown's investigative series documenting the scope of Epstein's abuse and the failures of the 2008 plea deal. Brown had spent over a year identifying approximately 80 potential victims and persuaded eight to share their stories. The series detailed Acosta's role in the NPA, the immunity granted to co-conspirators, and the systemic failures to protect victims. The reporting triggered the SDNY to open a new investigation in December 2018 and ultimately led to Epstein's 2019 arrest.",
+    "category": "media",
+    "significance": 1,
+    "relatedEntityIds": ["person-julie-brown", "person-acosta", "doc-miami-herald-series"],
+    "sources": [{ "label": "Miami Herald publication records", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2019-marra-ruling",
+    "date": "2019-02-21",
+    "title": "Judge Marra Rules NPA Violated Victims' Rights",
+    "description": "Federal judge rules prosecutors violated the Crime Victims' Rights Act in the Epstein plea deal.",
+    "detailedDescription": "U.S. District Judge Kenneth Marra ruled that federal prosecutors in Florida violated the Crime Victims' Rights Act (CVRA) when they concealed the NPA from victims and misled them into believing federal prosecution was still possible. Despite finding the violation, Marra determined the CVRA does not authorize monetary damages against the government. He later closed the case in September 2019, ruling the government owed victims no compensation. The ruling established an important precedent but provided little practical relief to victims like Courtney Wild, the lead plaintiff.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-marra", "person-wild", "doc-npa-2007", "person-acosta"],
+    "sources": [{ "label": "Marra CVRA ruling", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2019-arrest",
+    "date": "2019-07-06",
+    "title": "Epstein Arrested on Federal Sex Trafficking Charges",
+    "description": "Epstein arrested at Teterboro Airport by FBI; SDNY charges sex trafficking of minors and conspiracy.",
+    "detailedDescription": "Jeffrey Epstein was arrested on the evening of July 6, 2019, at Teterboro Airport in New Jersey upon returning from Paris aboard his private jet. FBI agents arrested him on a sealed two-count indictment from the Southern District of New York charging sex trafficking of minors and conspiracy to engage in sex trafficking of minors. Federal agents executing a search warrant of his Manhattan mansion found a locked safe containing a 'vast trove' of photographs of young-looking women and girls. SDNY prosecutors determined they were not bound by the 2007 Florida NPA. U.S. Attorney Geoffrey Berman stated the investigation was intended to give victims 'their day in court.'",
+    "category": "arrest",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "person-berman", "org-sdny", "org-fbi", "doc-sdny-indictment-2019", "loc-manhattan-mansion"],
+    "sources": [
+      { "label": "SDNY Press Release", "reliability": "primary" },
+      { "label": "SDNY Indictment", "reliability": "primary" }
+    ]
+  },
+  {
+    "id": "event-2019-acosta-resignation",
+    "date": "2019-07-19",
+    "title": "Alexander Acosta Resigns as Labor Secretary",
+    "description": "Acosta resigns from Trump's cabinet under bipartisan pressure over his role in the Epstein plea deal.",
+    "detailedDescription": "Alexander Acosta resigned as U.S. Secretary of Labor on July 19, 2019, under intense bipartisan pressure stemming from renewed scrutiny of the 2007 non-prosecution agreement he approved as U.S. Attorney. His resignation came 13 days after Epstein's arrest on new federal charges. Acosta maintained his actions were appropriate given the circumstances at the time but acknowledged the outcome was insufficient.",
+    "category": "political",
+    "significance": 2,
+    "relatedEntityIds": ["person-acosta", "doc-npa-2007"],
+    "sources": [{ "label": "White House announcement; news reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2019-death",
+    "date": "2019-08-10",
+    "title": "Jeffrey Epstein Found Dead in Jail Cell",
+    "description": "Epstein found dead at Metropolitan Correctional Center. Medical examiner rules suicide by hanging.",
+    "detailedDescription": "On the morning of August 10, 2019, guards at the Metropolitan Correctional Center found Jeffrey Epstein unresponsive in his cell at approximately 6:30 AM, hanging off the side of his bed. He was transported to New York Downtown Hospital and pronounced dead at 6:39 AM. The NYC Chief Medical Examiner ruled the death a suicide by hanging. A DOJ Inspector General investigation documented extensive failures: Epstein had been unmonitored for approximately eight hours, his cellmate had been transferred out the day before without replacement, guards failed to perform required rounds, and surveillance cameras near his cell malfunctioned. Epstein had been found semiconscious with marks on his neck on July 23, placed on suicide watch, then removed from it six days later.",
+    "category": "death",
+    "significance": 1,
+    "relatedEntityIds": ["person-epstein", "loc-mcc-manhattan", "org-bop", "doc-doj-oig-mcc-report"],
+    "sources": [
+      { "label": "NYC Chief Medical Examiner ruling", "reliability": "primary" },
+      { "label": "DOJ OIG Report on MCC", "reliability": "primary" }
+    ]
+  },
+  {
+    "id": "event-2020-maxwell-arrest",
+    "date": "2020-07-02",
+    "title": "Ghislaine Maxwell Arrested",
+    "description": "Maxwell arrested by FBI at her New Hampshire estate, charged with sex trafficking conspiracy.",
+    "detailedDescription": "Ghislaine Maxwell was arrested by FBI agents at a 156-acre property in Bradford, New Hampshire, on July 2, 2020. She was charged with conspiracy to entice minors to travel to engage in illegal sex acts, enticement of a minor to travel to engage in illegal sex acts, conspiracy to transport minors with intent to engage in criminal sexual activity, transportation of a minor with intent to engage in criminal sexual activity, and two counts of perjury. She had reportedly been hiding at the property, which was purchased through an LLC.",
+    "category": "arrest",
+    "significance": 1,
+    "relatedEntityIds": ["person-maxwell", "org-sdny", "org-fbi"],
+    "sources": [{ "label": "SDNY Press Release; court records", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2020-usvi-lawsuit",
+    "date": "2020-01",
+    "title": "USVI Attorney General Files Suit Against Epstein Estate",
+    "description": "AG Denise George files civil enforcement action alleging Epstein's trafficking scheme in the Virgin Islands.",
+    "detailedDescription": "USVI Attorney General Denise George filed a civil enforcement action under the territory's CICO statute against Epstein's estate, co-executors Darren Indyke and Richard Kahn, and ten Epstein-created entities. The complaint alleged that the 'Epstein Enterprise' transported dozens of women and girls as young as 12 to Little St. James for sexual exploitation, using Southern Trust Company and other entities as financial conduits. The case settled in December 2022 for $105 million plus half the proceeds from property sales.",
+    "category": "legal",
+    "significance": 2,
+    "relatedEntityIds": ["person-epstein", "person-denise-george", "org-usvi-ag", "loc-little-st-james", "org-southern-trust", "doc-usvi-complaint"],
+    "sources": [{ "label": "USVI AG Complaint; settlement announcement", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2020-deutsche-fine",
+    "date": "2020-07-07",
+    "title": "Deutsche Bank Fined $150M for Epstein Compliance Failures",
+    "description": "NY DFS imposes $150 million penalty on Deutsche Bank for failing to monitor Epstein's suspicious transactions.",
+    "detailedDescription": "The New York State Department of Financial Services imposed a $150 million penalty on Deutsche Bank for significant compliance failures connected to its relationship with Epstein (2013-2018). The DFS found the bank processed hundreds of suspicious transactions totaling millions of dollars without adequate scrutiny, including payments to alleged co-conspirators and settlement payments exceeding $7 million. Conditions imposed by the bank's own reputational risk committee were not properly communicated to account managers. This was the first regulatory enforcement action against a financial institution for dealings with Epstein.",
+    "category": "financial",
+    "significance": 2,
+    "relatedEntityIds": ["org-deutsche-bank", "person-epstein"],
+    "sources": [{ "label": "NY DFS Consent Order", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2021-maxwell-trial",
+    "date": "2021-11-29",
+    "endDate": "2021-12-29",
+    "title": "Ghislaine Maxwell Federal Trial",
+    "description": "Month-long trial in SDNY with testimony from four victims; resulted in conviction on five counts.",
+    "detailedDescription": "The federal trial of Ghislaine Maxwell took place in the Southern District of New York from November 29 to December 29, 2021. Prosecutors focused on four victims out of more than 100 identified: 'Jane' (abused from age 14 starting in 1994), 'Kate' (abused at multiple properties), 'Carolyn' (abused from age 14 with Maxwell's direct involvement), and Annie Farmer (who testified under her full name about abuse in New Mexico and New York). The prosecution presented evidence of Maxwell's role in recruiting, grooming, and facilitating victims' abuse by Epstein over a period spanning from at least 1994 to 2004.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-maxwell", "person-farmer", "org-sdny", "doc-maxwell-trial-transcripts"],
+    "sources": [{ "label": "USA v. Maxwell trial transcripts", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2021-maxwell-verdict",
+    "date": "2021-12-29",
+    "title": "Ghislaine Maxwell Found Guilty",
+    "description": "Jury convicts Maxwell on five of six counts including sex trafficking of a minor.",
+    "detailedDescription": "On December 29, 2021, a federal jury convicted Ghislaine Maxwell on five of six counts: conspiracy to entice minors to travel to engage in illegal sex acts, conspiracy to transport minors with intent to engage in illegal sexual activity, transportation of a minor with intent to engage in illegal sexual activity, sex trafficking conspiracy, and sex trafficking of a minor. She was acquitted on one count of enticement of a minor. Maxwell became the only person besides Epstein to be criminally convicted in connection with his sex trafficking operation.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-maxwell", "org-sdny"],
+    "sources": [{ "label": "USA v. Maxwell verdict", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2022-maxwell-sentencing",
+    "date": "2022-06-28",
+    "title": "Maxwell Sentenced to 20 Years",
+    "description": "Judge sentences Maxwell to 20 years in federal prison and a $750,000 fine.",
+    "detailedDescription": "On June 28, 2022, U.S. District Judge Alison Nathan sentenced Ghislaine Maxwell to 20 years in federal prison, slightly above the sentencing guidelines range. The judge also imposed a $750,000 fine, the maximum under the law. Prosecutors had requested 30 to 55 years; the probation department recommended 20 years; Maxwell's attorneys sought 4.25 to 5.25 years. The judge cited the victims' 'disturbing testimony' and Maxwell's 'direct and repeated participation in a horrific scheme.' Maxwell was sentenced on three counts after the judge agreed two conspiracy counts were repetitive. Her convictions were upheld on appeal in September 2024.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["person-maxwell"],
+    "sources": [{ "label": "Sentencing transcript; NPR, CNN reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2022-brunel-death",
+    "date": "2022-02-19",
+    "title": "Jean-Luc Brunel Found Dead in Paris Jail",
+    "description": "French modeling agent Jean-Luc Brunel found dead by hanging in La Sante Prison while awaiting trial.",
+    "detailedDescription": "Jean-Luc Brunel was found dead in his cell at La Sante Prison in Paris at approximately 1:30 AM on February 19, 2022. He had hanged himself with bedsheets. Brunel had been arrested on December 16, 2020, at Charles de Gaulle Airport and was charged with drugging and raping a 17-year-old girl in the 1990s. He was being held in an investigation into rape of minors and trafficking of minors for sexual exploitation connected to Epstein. He had reportedly attempted suicide multiple times prior to his death. His death, coming less than three years after Epstein's similar death in custody, drew significant public attention.",
+    "category": "death",
+    "significance": 2,
+    "relatedEntityIds": ["person-brunel", "person-epstein", "loc-paris-apartment"],
+    "sources": [
+      { "label": "Paris prosecutor's office statement", "reliability": "primary" },
+      { "label": "NPR reporting", "reliability": "reporting" }
+    ]
+  },
+  {
+    "id": "event-2022-andrew-settlement",
+    "date": "2022-02-15",
+    "title": "Prince Andrew Settles Giuffre's Civil Lawsuit",
+    "description": "Prince Andrew reaches an out-of-court settlement with Virginia Giuffre, making a 'substantial donation' to her charity.",
+    "detailedDescription": "On February 15, 2022, Prince Andrew and Virginia Giuffre reached an out-of-court settlement in her civil sexual abuse lawsuit. Financial terms were not publicly disclosed, though Andrew agreed to make a 'substantial donation' to Giuffre's charity. In the settlement, Andrew acknowledged that Epstein 'trafficked countless young girls over many years' and expressed regret for his association with Epstein. He commended 'the bravery of Ms. Giuffre and other survivors.' Andrew had been stripped of his military affiliations and royal patronages by Queen Elizabeth II in January 2022 ahead of the settlement.",
+    "category": "legal",
+    "significance": 2,
+    "relatedEntityIds": ["person-prince-andrew", "person-giuffre"],
+    "sources": [{ "label": "Settlement filing; NPR reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2023-jpmorgan-settlement",
+    "date": "2023-06-12",
+    "title": "JP Morgan Settles with Epstein Victims for $290M",
+    "description": "JP Morgan agrees to pay $290 million to over 100 victims who alleged the bank facilitated Epstein's trafficking.",
+    "detailedDescription": "JP Morgan Chase agreed to pay $290 million to settle claims from more than 100 women who alleged the bank aided and abetted Epstein's sex trafficking scheme by continuing to bank him from 1998 to 2013 despite awareness of his criminal conduct. The settlement was led by Jane Doe 1, a former ballet dancer. U.S. District Judge Jed Rakoff granted final approval in November 2023. The case revealed internal communications showing bank employees were aware of concerns about Epstein's activities. JP Morgan also settled separately with the USVI for $75 million.",
+    "category": "legal",
+    "significance": 1,
+    "relatedEntityIds": ["org-jpmorgan", "person-epstein", "doc-jpmorgan-settlement"],
+    "sources": [{ "label": "SDNY court records; NPR, CNBC reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2023-deutsche-settlement",
+    "date": "2023-05-18",
+    "title": "Deutsche Bank Settles with Epstein Victims for $75M",
+    "description": "Deutsche Bank agrees to pay $75 million to victims affected during its 2013-2018 banking relationship with Epstein.",
+    "detailedDescription": "Deutsche Bank reached a $75 million settlement with victims of Epstein's sex trafficking who were affected during the bank's relationship with Epstein from 2013 to 2018. Individual victims could receive between $75,000 and $5 million depending on evaluation of their claims. This came on top of the $150 million regulatory fine imposed by the NY DFS in 2020. Final court approval was granted in October 2023.",
+    "category": "legal",
+    "significance": 2,
+    "relatedEntityIds": ["org-deutsche-bank", "person-epstein", "doc-deutsche-bank-settlement"],
+    "sources": [{ "label": "SDNY court records; NPR reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2024-document-release",
+    "date": "2024-01-03",
+    "title": "Giuffre v. Maxwell Documents Unsealed",
+    "description": "Judge orders release of sealed documents from the Giuffre v. Maxwell case, revealing nearly 200 names.",
+    "detailedDescription": "Judge Loretta Preska of the SDNY ordered the unsealing of court documents from Giuffre v. Maxwell (15-cv-07433), releasing them in rolling batches beginning January 3, 2024. The documents included depositions, emails, and court filings containing nearly 200 names. Names appearing included Prince Andrew, Bill Clinton, Donald Trump, Bill Richardson, Alan Dershowitz, Stephen Hawking, and many others, though most were mentioned in passing and were not accused of wrongdoing. The release triggered a surge of public attention and media coverage. Extensive redactions remained for victim names, attorney-client communications, and national security concerns.",
+    "category": "document-release",
+    "significance": 1,
+    "relatedEntityIds": ["person-giuffre", "person-maxwell", "doc-giuffre-deposition"],
+    "sources": [
+      { "label": "SDNY court order (Jan 2024)", "reliability": "primary" },
+      { "label": "Axios, CNN, Fortune reporting", "reliability": "reporting" }
+    ]
+  },
+  {
+    "id": "event-2024-grand-jury-release",
+    "date": "2024-07",
+    "title": "2006 Palm Beach Grand Jury Transcripts Released",
+    "description": "Florida judge releases transcripts of 2006 grand jury proceedings detailing allegations against Epstein.",
+    "detailedDescription": "A Florida judge released previously sealed transcripts from the 2006 Palm Beach County grand jury proceedings, revealing the scope of testimony presented to the grand jury about Epstein's sexual assaults of numerous underage girls at his Palm Beach mansion. The release highlighted the disparity between the extensive evidence presented and the single minor charge ultimately returned.",
+    "category": "document-release",
+    "significance": 2,
+    "relatedEntityIds": ["person-epstein", "doc-2006-grand-jury"],
+    "sources": [{ "label": "Florida court order; PBS News reporting", "reliability": "primary" }]
+  },
+  {
+    "id": "event-2025-doj-releases",
+    "date": "2025",
+    "endDate": "2026-01-30",
+    "title": "DOJ Releases 207,000+ Epstein Documents",
+    "description": "DOJ releases 12 data sets totaling 207,000+ documents, with a final 3-million-page release in January 2026.",
+    "detailedDescription": "Between 2024 and January 2026, the Department of Justice released investigative documents related to Jeffrey Epstein in 12 data sets totaling over 207,000 documents, including FBI reports, financial records, flight logs, photographs, and correspondence. The December 2025 release included mentions of Donald Trump and other public figures. The final release on January 30, 2026, comprised approximately 3 million pages, 2,000 videos, and 180,000 images. The DOJ stated this would be the final release. The documents revealed new details about FBI investigation scope, financial relationships, alleged co-conspirators, and prosecutorial deliberations about charges beyond Epstein and Maxwell.",
+    "category": "document-release",
+    "significance": 1,
+    "relatedEntityIds": ["org-doj", "org-fbi", "doc-doj-releases-2025"],
+    "sources": [
+      { "label": "DOJ Epstein Disclosures", "reliability": "primary" },
+      { "label": "PBS News, CBS News reporting", "reliability": "reporting" }
+    ]
+  },
+  {
+    "id": "event-2025-giuffre-death",
+    "date": "2025-04-25",
+    "title": "Virginia Giuffre Dies",
+    "description": "Virginia Giuffre, Epstein's most prominent accuser, dies at age 41 in Western Australia.",
+    "detailedDescription": "Virginia Giuffre died on April 25, 2025, at her home in Neergabby, Western Australia, at the age of 41. Emergency services found her unresponsive; she was given first aid but pronounced dead. Her death was reported as a suicide. Her father publicly disputed this, stating 'there's no way that she committed suicide.' In the weeks before her death, Giuffre had been in a serious car accident, experienced renal failure, and her marriage of 22 years had reportedly ended. An investigation was opened by Australian authorities.",
+    "category": "death",
+    "significance": 2,
+    "relatedEntityIds": ["person-giuffre"],
+    "sources": [
+      { "label": "Western Australia Police statement", "reliability": "primary" },
+      { "label": "PBS News, NBC News reporting", "reliability": "reporting" }
+    ]
+  }
+]
