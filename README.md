@@ -126,3 +126,33 @@ flowchart LR
 `GREEN` означает только воспроизводимо подтверждённый тезис. Гипотеза, benchmark без корректного протокола, архитектурная диаграмма или красивый экономический цикл сами по себе GREEN не дают.
 
 <!-- SYNERGY-FEDERATION-PASSPORT:END -->
+
+---
+
+# 🕸️ Глубокий исследовательский паспорт provenance graph
+
+## Реальный pipeline
+
+Repo имеет source registry, vendor/build workflows, adapters, normalization/entity-resolution code, Neo4j import и tests.
+
+```mermaid
+flowchart LR
+    SRC[Public source registries] --> VEND[Vendor/sync]
+    VEND --> NORM[Normalize]
+    NORM --> RES[Entity resolution]
+    RES --> GRAPH[Nodes / edges]
+    GRAPH --> PROV[Evidence + provenance]
+    PROV --> NEO[Neo4j import]
+```
+
+## Research-integrity invariant
+
+Контакт, совместный полёт, email edge, co-mention и обвинение — **разные семантики**. Ни одно присутствие в публичном наборе данных само по себе не доказывает противоправное поведение.
+
+## Privacy/safety boundary
+
+Проект не должен использовать historical email address для intrusive account probing или активной персональной идентификации.
+
+## Следующий рубеж
+
+source-level hashes → duplicate/fork detection → typed relationship ontology → confidence calibration → edge-level citation export → reproducible build snapshot.
