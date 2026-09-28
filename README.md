@@ -91,3 +91,38 @@ The objective is a graph that can always answer: **“Why does this edge exist, 
 ## Research integrity
 
 See `docs/SCHEMA.md` and `docs/DATA_POLICY.md`.
+
+
+<!-- SYNERGY-FEDERATION-PASSPORT:START -->
+---
+
+## 🧭 SYNERGY federation passport
+
+**Домен:** 🔬 Knowledge-graph research  
+**Архитектурный родитель:** [`synergy_megaproject`](https://github.com/Shtenco/synergy_megaproject)  
+**Архитектурный корень:** [`synergy_system`](https://github.com/Shtenco/synergy_system)
+
+```mermaid
+flowchart LR
+    SYS[🧭 synergy_system] --> P[synergy_megaproject]
+    P --> THIS[epstein_network]
+    THIS --> E[📦 Evidence / outputs]
+```
+
+Архитектурная стрелка — это карта федерации, а не автоматически подтверждённая runtime dependency.
+
+### Единый стандарт
+
+Каждый проект должен документировать реальную проблему, реализацию, тесты, evidence, ограничения, file map, воспроизводимость, roadmap и границы утверждений. Это тот же принцип, который используется в `dlp_solver`.
+
+### Навигация
+
+- [📚 Атлас всех 75 репозиториев](https://github.com/Shtenco/synergy_system/blob/main/docs/SYNERGY_REPOSITORY_ATLAS.md)
+- [🧾 Машиночитаемый registry](https://github.com/Shtenco/synergy_system/blob/main/registry/SYNERGY_REPOSITORIES.json)
+- [🧭 SYNERGY SYSTEM](https://github.com/Shtenco/synergy_system)
+
+### Evidence rule
+
+`GREEN` означает только воспроизводимо подтверждённый тезис. Гипотеза, benchmark без корректного протокола, архитектурная диаграмма или красивый экономический цикл сами по себе GREEN не дают.
+
+<!-- SYNERGY-FEDERATION-PASSPORT:END -->
