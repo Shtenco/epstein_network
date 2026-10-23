@@ -96,17 +96,17 @@ See `docs/SCHEMA.md` and `docs/DATA_POLICY.md`.
 <!-- SYNERGY-FEDERATION-PASSPORT:START -->
 ---
 
-## 🧭 SYNERGY federation passport
+##  SYNERGY federation passport
 
-**Домен:** 🔬 Knowledge-graph research  
+**Домен:**  Knowledge-graph research  
 **Архитектурный родитель:** [`synergy_megaproject`](https://github.com/Shtenco/synergy_megaproject)  
 **Архитектурный корень:** [`synergy_system`](https://github.com/Shtenco/synergy_system)
 
 ```mermaid
 flowchart LR
-    SYS[🧭 synergy_system] --> P[synergy_megaproject]
+    SYS[ synergy_system] --> P[synergy_megaproject]
     P --> THIS[epstein_network]
-    THIS --> E[📦 Evidence / outputs]
+    THIS --> E[ Evidence / outputs]
 ```
 
 Архитектурная стрелка — это карта федерации, а не автоматически подтверждённая runtime dependency.
@@ -117,9 +117,9 @@ flowchart LR
 
 ### Навигация
 
-- [📚 Атлас всех 75 репозиториев](https://github.com/Shtenco/synergy_system/blob/main/docs/SYNERGY_REPOSITORY_ATLAS.md)
-- [🧾 Машиночитаемый registry](https://github.com/Shtenco/synergy_system/blob/main/registry/SYNERGY_REPOSITORIES.json)
-- [🧭 SYNERGY SYSTEM](https://github.com/Shtenco/synergy_system)
+- [ Атлас всех 75 репозиториев](https://github.com/Shtenco/synergy_system/blob/main/docs/SYNERGY_REPOSITORY_ATLAS.md)
+- [ Машиночитаемый registry](https://github.com/Shtenco/synergy_system/blob/main/registry/SYNERGY_REPOSITORIES.json)
+- [ SYNERGY SYSTEM](https://github.com/Shtenco/synergy_system)
 
 ### Evidence rule
 
@@ -129,7 +129,7 @@ flowchart LR
 
 ---
 
-# 🕸️ Глубокий исследовательский паспорт provenance graph
+#  Глубокий исследовательский паспорт provenance graph
 
 ## Реальный pipeline
 
