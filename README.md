@@ -1,3 +1,11 @@
+<!-- SCIENTIFIC-V5-2026:START -->
+<img src="assets/readme/scientific-architecture-v5.svg" width="100%" alt="Epstein Network — Provenance Graph scientific architecture"/>
+
+**[Научно-техническое досье V5: математика, исходники, тесты, ограничения](docs/SCIENTIFIC_DOSSIER_V5_2026.md)**  
+**Проверяемый статус:** RESEARCH: импорт/нормализация есть; доказанность конкретных связей определяется источником. Предыдущий README ниже сохранён; наличие кода не означает подтверждённого production.
+
+<!-- SCIENTIFIC-V5-2026:END -->
+
 # Epstein Network — Distilled Master Graph
 
 A provenance-first pipeline for distilling multiple public Epstein-related datasets into one deduplicated research graph.
